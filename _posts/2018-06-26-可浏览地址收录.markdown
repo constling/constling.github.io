@@ -6,10 +6,14 @@ categories: update
 ---
 
 
+[**infoQ**](http://www.infoq.com/cn/)
 
 **关注**
 
 http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
 
-[**infoQ**](http://www.infoq.com/cn/)
+**深度学习论文推荐**
+
+[https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
+
