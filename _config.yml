@@ -13,3 +13,6 @@ github_username:  constling
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM
