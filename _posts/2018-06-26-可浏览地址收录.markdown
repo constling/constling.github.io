@@ -6,20 +6,19 @@ categories: update
 ---
 
 
-[**infoQ**](http://www.infoq.com/cn/)
-[**简书**](https://www.jianshu.com/)
-[**ARChina**](http://www.arinchina.com/)
-[**mac端开源软件**](http://opensourcemac.org/)
+* [**infoQ**](http://www.infoq.com/cn/)
+* [**简书**](https://www.jianshu.com/)
+* [**ARChina**](http://www.arinchina.com/)
+* [**mac端开源软件**](http://opensourcemac.org/)
 
-**关注**
+* **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
-http://www.mzh.ren/adobe-photoshop-new-algorithm.html
-
-
-**深度学习论文推荐**
-
-[https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
+* **深度学习论文推荐**
+	[https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap]	(https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
 
 
-**javascript问题汇总**
+* **javascript问题汇总**
 [https://github.com/simongong/js-stackoverflow-highest-votes](https://github.com/simongong/js-stackoverflow-highest-votes)
+
+
+* [优秀博文1](https://blog.ibireme.com/)
