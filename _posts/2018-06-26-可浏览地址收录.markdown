@@ -8,7 +8,8 @@ categories: update
 
 [**infoQ**](http://www.infoq.com/cn/)
 [**简书**](https://www.jianshu.com/)
-
+[**ARChina**](http://www.arinchina.com/)
+[**mac端开源软件**](http://opensourcemac.org/)
 
 **关注**
 
