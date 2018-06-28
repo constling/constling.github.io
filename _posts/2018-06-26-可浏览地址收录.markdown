@@ -13,6 +13,7 @@ categories: update
 * [**mac端开源软件**](http://opensourcemac.org/)
 * [**腾讯云社区**](https://cloud.tencent.com/developer)
 * [**微像素**](http://www.zealfilter.com/portal.php)
+* [**Mac玩儿法**](https://www.waerfa.com/)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
@@ -29,3 +30,4 @@ categories: update
 **开源项目**
 
 * [mini chrome](https://chromium.googlesource.com/chromium/mini_chromium/)
+* [mars](https://github.com/Tencent/mars)
