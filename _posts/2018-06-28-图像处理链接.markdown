@@ -1,0 +1,111 @@
+---
+layout: post
+title:  "图像处理链接"
+date:   2018-06-28 09:54:32
+categories: update
+---
+
+
+1，毕业于荷兰特温特大学的Dirk-Jan Kroon博士，在Mathworks的FileExchange上的链接，曾经到访过他原来读书时的主页，当时有句话对他的评价是，他非常喜欢计算机编程，这个真不假，下面这个链接里有他用Matlab写成的近百个程序源码，质量非常高，而且涉猎广泛。
+http://www.mathworks.com/matlabcentral/fileexchange/authors/29180
+
+2，这是研究 image matting（中文叫抠图——这名字真难听，不知道是谁始作俑者）必去的一个网站，里面有大量关于这个主题内容的介绍，包括最新的成果，评测和对比。
+http://www.alphamatting.com/
+
+3，非常棒的网站，超多资源。IPOL is a research journal of image processing and image analysis. Each article contains a text on an algorithm and its source code。讨论了超过20个大的Topics，具体每个Topics里面还有许多具体的实现分支，配有可供研究的源代码。研究图像处理不可不看的网站。
+http://www.ipol.im/
+
+4，布朗大学Douglas Lanman博士的主页，很多有意思的成果，部分有代码资源下载。
+http://mesh.brown.edu/dlanman/courses.html
+
+5，我一直觉得犹太人很聪明，而且做事的态度也务实。经验中，大部分Paper的作者会在自己的网站上贴出文章，但很少附有代码，如果你自己去写个代码，很多都无法达到作者paper中给出的效果，吹水的可能性极大。但是在研究Close-form soluting 的图像matting时，看到了以色列女学者Anat Levin的主页，作者就提供有matlab代码，很值得推荐。
+http://www.wisdom.weizmann.ac.il/~levina/
+
+另外一个以色列学者（以色列理工的Guy Gilboa教授）的主页（有关于TV去噪的代码）。
+http://visl.technion.ac.il/~gilboa/PDE-filt/tv_denoising.html
+
+6，香港中文大学 贾佳亚老师的主页，有很多作者的Paper，贾老师在图像处理方面的很多成果非常吸引人，主要是deblur（image matting 也有，但是已经不是当前最好的效果了）。
+http://www.cse.cuhk.edu.hk/~leojia/
+7，中国计算机视觉论坛
+http://www.cvchina.info/
+8，一些相关博客，网站链接
+       
+ http://blog.csdn.net/housisong/category/325273.aspx
+            图像处理的相关技术博客
+       
+ http://www.cnblogs.com/xiaotie/category/145078.html
+            图像处理的相关技术博客
+        
+http://blog.csdn.net/jessezappy/article/category/149885
+         图像处理的相关技术博客
+        
+http://www.cnblogs.com/zyl910
+                                             图像处理的相关技术博客
+        
+http://www.cnblogs.com/nsnow/
+                                           图像处理的相关技术博客
+        
+http://blog.csdn.net/maozefa
+                                                图像处理的相关技术博客
+        
+http://vistaswx.blogbus.com/
+                                                图像处理的相关技术博客
+        
+http://blog.csdn.net/rabbit729
+                                               图像处理的相关技术博客
+        
+http://hi.baidu.com/aligg/blog
+                                                图像处理的相关技术博客
+        
+http://hi.baidu.com/graydeer/blog
+                                          图像处理的相关技术博客
+        
+http://www.cnblogs.com/Imageshop
+                                       图像处理的相关技术博客
+        
+        
+http://www.uml.org.cn/c++/200811103.asp
+                           大量的优化技巧和方案
+        
+http://www.xbeat.net/vbspeed/
+                                             大量的优化技巧和方案
+        
+        
+http://www.jhlabs.com/ip/filters/index.html
+                             与图像处理软件有关的网站
+        
+http://www.getpaint.net/
+                                                      与图像处理软件有关的网站
+        
+http://www.codeproject.com/ 
+                                               与图像处理软件有关的网站
+        
+http://www.planet-source-code.com/Default.asp
+                     与图像处理软件有关的网站
+        
+http://www.mndsoft.com/blog/
+                                              与图像处理软件有关的网站
+        
+http://www.jasonwaltman.com/thesis/filters.html
+                     与图像处理软件有关的网站
+        
+http://msdn.microsoft.com/en-us/library/ms533798.aspx
+         与图像处理软件有关的网站
+        
+http://rsb.info.nih.gov/ij/developer/source/
+                             与图像处理软件有关的网站
+        
+http://freespace.virgin.net/hugo.elias/models
+                          与图像处理软件有关的网站
+        
+http://tlcheng.twbbs.org/TLCheng/Basic/
+                                与图像处理软件有关的网站
+        
+        
+http://www.wotsit.org/list.asp?fc=1
+                                                   图像文件格式大全
+        
+http://blog.csdn.net/zgke/archive/2010/03/25/5414261.aspx
+               图像文件格式相关
+        
+http://www.martinreddy.net/gfx/2d/IFF.txt
