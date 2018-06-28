@@ -11,6 +11,7 @@ categories: update
 * [**简书**](https://www.jianshu.com/)
 * [**ARChina**](http://www.arinchina.com/)
 * [**mac端开源软件**](http://opensourcemac.org/)
+* [**腾讯云社区**](https://cloud.tencent.com/developer)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
