@@ -5,4 +5,4 @@ date:   2018-06-30 11:06:00
 categories: update
 ---
 
-![avatar](../images/rss.png)
+![avatar](./image/1.jpg)
