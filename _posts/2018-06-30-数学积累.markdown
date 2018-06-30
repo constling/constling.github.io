@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "数学积累"
+date:   2018-06-30 11:06:00
+categories: update
+---
+
+![avatar](../images/rss.png)
