@@ -10,7 +10,7 @@ categories: update
 2、矩阵
 3、逆矩阵
 
-**张量**</br>
+**张量**<br/>
 张量的严格定义是利用线性映射来描述的。与矢量相类似，定义由若干坐标系改变时满足一定坐标转化关系的有序数组成的集合为张量。
 
 **生成子空间**
@@ -23,3 +23,9 @@ categories: update
 **特征向量**
 
 **softmax函数**
+
+![softmax](https://github.com/constling/constling.github.io/blob/master/images/softmax.png?raw=true)
+
+**病态条件**<br/>
+[链接](https://blog.csdn.net/u011584941/article/details/44625779)
+
