@@ -2,7 +2,7 @@
 layout: post
 title:  "数学意义积累"
 date:   2018-06-30 11:06:00
-categories: update
+categories: math
 ---
 
 1、运算符点乘

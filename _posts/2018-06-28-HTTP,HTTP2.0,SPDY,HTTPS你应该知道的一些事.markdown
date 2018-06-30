@@ -2,7 +2,7 @@
 layout: post
 title:  "HTTP,HTTP2.0,SPDY,HTTPS你应该知道的一些事"
 date:   2018-06-28 09:02:32
-categories: update
+categories: information
 ---
 
 [转载](http://www.alloyteam.com/2016/07/httphttp2-0spdyhttps-reading-this-is-enough/)
