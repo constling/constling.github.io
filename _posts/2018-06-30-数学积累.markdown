@@ -1,8 +1,20 @@
 ---
 layout: post
-title:  "数学积累"
+title:  "数学意义积累"
 date:   2018-06-30 11:06:00
 categories: update
 ---
 
-![avatar](https://github.com/constling/imageResource/blob/master/1.jpg)
+1、运算符点乘
+的几何意义是可以用来表征或计算两个向量之间的夹角，以及在b向量在a向量方向上的投影。[链接](https://blog.csdn.net/jacke121/article/details/55804353)
+2、矩阵
+3、逆矩阵
+
+**生成子空间**
+(span)是原始向量线性组合后所能抵达的点的集合
+
+**范数**
+
+**正交矩阵**
+
+**特征向量**
