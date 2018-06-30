@@ -5,4 +5,4 @@ date:   2018-06-30 11:06:00
 categories: update
 ---
 
-![avatar](./image/1.jpg)
+![avatar](https://github.com/constling/imageResource/blob/master/1.jpg)
