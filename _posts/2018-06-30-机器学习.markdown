@@ -5,7 +5,7 @@ date:   2018-06-30 16:53:00
 categories: 机器学习
 ---
 
-###常见的机器学习任务
+### 常见的机器学习任务
 
 
 * 分类
@@ -27,3 +27,5 @@ categories: 机器学习
 https://blog.csdn.net/u011001084/article/details/73285698
 
 http://www.360doc.com/content/16/1229/22/32626470_618756999.shtml
+
+https://blog.csdn.net/Mrxxyz/article/details/79296580
