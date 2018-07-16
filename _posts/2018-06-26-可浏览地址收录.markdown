@@ -14,6 +14,7 @@ categories: update
 * [**腾讯云社区**](https://cloud.tencent.com/developer)
 * [**微像素**](http://www.zealfilter.com/portal.php)
 * [**Mac玩儿法**](https://www.waerfa.com/)
+* [**mac开源app**](https://github.com/serhii-londar/open-source-mac-os-apps)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
