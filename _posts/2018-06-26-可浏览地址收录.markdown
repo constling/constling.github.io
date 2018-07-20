@@ -15,7 +15,8 @@ categories: update
 * [**微像素**](http://www.zealfilter.com/portal.php)
 * [**Mac玩儿法**](https://www.waerfa.com/)
 * [**mac开源app**](https://github.com/serhii-londar/open-source-mac-os-apps)
-* [****](https://www.sumaarts.com/)
+* [**tensorflow视频教程**](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/)
+* [**tensorflow**](https://www.tensorflow.org/get_started/?hl=zh-cn)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
