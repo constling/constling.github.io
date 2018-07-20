@@ -15,6 +15,7 @@ categories: update
 * [**微像素**](http://www.zealfilter.com/portal.php)
 * [**Mac玩儿法**](https://www.waerfa.com/)
 * [**mac开源app**](https://github.com/serhii-londar/open-source-mac-os-apps)
+* [****](https://www.sumaarts.com/)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
@@ -32,3 +33,9 @@ categories: update
 
 * [mini chrome](https://chromium.googlesource.com/chromium/mini_chromium/)
 * [mars](https://github.com/Tencent/mars)
+
+
+**了解**
+
+* 领域区动设计：https://www.duyidong.com/2018/04/23/ddd-key-words/
+* 
