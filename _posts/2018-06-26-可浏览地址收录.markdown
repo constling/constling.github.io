@@ -17,6 +17,7 @@ categories: update
 * [**mac开源app**](https://github.com/serhii-londar/open-source-mac-os-apps)
 * [**tensorflow视频教程**](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/)
 * [**tensorflow**](https://www.tensorflow.org/get_started/?hl=zh-cn)
+* [**google web**]https://developers.google.com/web/?hl=zh-cn
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
