@@ -17,7 +17,15 @@ categories: update
 * [**mac开源app**](https://github.com/serhii-londar/open-source-mac-os-apps)
 * [**tensorflow视频教程**](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/)
 * [**tensorflow**](https://www.tensorflow.org/get_started/?hl=zh-cn)
-* [**google web**]https://developers.google.com/web/?hl=zh-cn
+* [**google web**](https://developers.google.com/web/?hl=zh-cn)
+* [**mac Project**](https://github.com/serhii-londar/open-source-mac-os-apps)
+* [**互联网公司技术架构**](https://github.com/davideuler/architecture.of.internet-product)
+* [**mobiletech**](https://github.com/jtyjty99999/mobileTech)
+* [**后端技术架构图谱**](https://github.com/xingshaocheng/architect-awesome)
+* [**后端技术设计**](https://github.com/donnemartin/system-design-primer)
+* [**service worker学习**](https://github.com/mozilla/serviceworker-cookbook)
+* [**pwa中文简书**](https://github.com/SangKa/PWA-Book-CN)
+* [**hubot**](https://github.com/hubotio/hubot)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
@@ -36,6 +44,10 @@ categories: update
 * [mini chrome](https://chromium.googlesource.com/chromium/mini_chromium/)
 * [mars](https://github.com/Tencent/mars)
 
+
+**前端技术**
+
+* 
 
 **了解**
 
