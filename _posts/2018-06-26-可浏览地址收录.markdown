@@ -53,3 +53,7 @@ categories: update
 
 * 领域区动设计：https://www.duyidong.com/2018/04/23/ddd-key-words/
 * 
+
+**ppt制作**
+
+* [focusk](focusky.com.cn)
