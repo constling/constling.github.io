@@ -26,6 +26,7 @@ categories: update
 * [**service worker学习**](https://github.com/mozilla/serviceworker-cookbook)
 * [**pwa中文简书**](https://github.com/SangKa/PWA-Book-CN)
 * [**hubot**](https://github.com/hubotio/hubot)
+* [**google web**](https://developers.google.com/web/?hl=zh-cn)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
