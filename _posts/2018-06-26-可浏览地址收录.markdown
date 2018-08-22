@@ -27,6 +27,7 @@ categories: update
 * [**pwa中文简书**](https://github.com/SangKa/PWA-Book-CN)
 * [**hubot**](https://github.com/hubotio/hubot)
 * [**google web**](https://developers.google.com/web/?hl=zh-cn)
+* [**chrome blog**](https://blog.chromium.org/)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
