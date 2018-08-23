@@ -6,6 +6,7 @@ categories: update
 ---
 
 * [**美团页面加载性能**](https://tech.meituan.com/WebViewPerf.html)
+* [**window.performance**](https://juejin.im/entry/58ba9cb5128fe100643da2cc)
 
 
 **视野学习**
