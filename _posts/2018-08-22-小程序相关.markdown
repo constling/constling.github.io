@@ -7,7 +7,7 @@ categories: update
 
 * [**美团页面加载性能**](https://tech.meituan.com/WebViewPerf.html)
 * [**window.performance**](https://juejin.im/entry/58ba9cb5128fe100643da2cc)
-
+* [**chrome内存占用与进程个数**](https://blog.csdn.net/minucas/article/details/49759693)
 
 **视野学习**
 
