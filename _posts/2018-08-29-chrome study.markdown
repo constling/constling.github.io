@@ -58,3 +58,14 @@ webcontrol::notifyMOveorresize->internalshell::notifymoveorresize->shell::notify
 renderviewhostimpl:notifymoxxx->renderviewhostimpl:send->renderwidgethostimpl:send->RenderProcessHostImpl:send-
 
 发送到:RenderViewImpl::OnMessageReceived
+
+
+chrome深度理解
+
+https://github.com/liangklfangl/react-article-bucket/blob/master/chrome-core/webCore/webkit-render-process.md
+
+性能数据相关：
+
+telemetry使用
+
+[about:tracing使用](http://gclxry.com/%E4%BD%BF%E7%94%A8chrometracing%E5%B7%A5%E5%85%B7%E6%9D%A5%E6%9F%A5%E7%9C%8Bchrome%E5%86%85%E5%AD%98%E5%92%8Ccpu%E4%BD%BF%E7%94%A8%E7%8A%B6%E5%86%B5/)
