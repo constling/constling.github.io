@@ -87,3 +87,7 @@ ppapi_plugin : Pepper 插件进程的代码。
 renderer : 每个 tab 子进程的代码。它内嵌了 WebKit, 并通过 browser 进行 I/O 操作。
 utility : 沙箱进程中执行随机操作所需要的代码。当 browser 进程需要对不受信任的数据做操作时，会调用它。
 worker ： 运行 HTML5 Web Worker 的代码。
+
+
+性能评估
+https://blog.csdn.net/huangjin0507/article/details/51878559
