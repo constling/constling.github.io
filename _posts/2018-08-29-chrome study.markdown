@@ -13,6 +13,9 @@ gclient runhooks:下载工具
 
 https://dev.chromium.org/developers/how-tos/depottools
 
+v8快照
+https://zhuanlan.zhihu.com/p/32249462
+
 资源加载
 
 https://www.chromium.org/developers/design-documents/multi-process-resource-loading
