@@ -57,6 +57,10 @@ categories: 装修
 
 ### 封窗
 
+品牌：成者锦源门窗有限公司
+
+50断桥+108断桥
+
 [封窗选择](https://constling.github.io/%E8%A3%85%E4%BF%AE/2018/10/05/%E5%AE%B6%E8%A3%85%E5%B0%81%E7%AA%97.html)
 
 ### 门
@@ -75,15 +79,21 @@ categories: 装修
 
 品牌：金牌橱柜
 
+<img src="https://github.com/constling/constling.github.io/blob/master/images/%E8%A3%85%E4%BF%AE/9.jpeg?raw=true" width="50%" height="50%"/>
+
 [橱柜选择](https://constling.github.io/%E8%A3%85%E4%BF%AE/2018/10/05/%E5%AE%B6%E8%A3%85%E6%A9%B1%E6%9F%9C.html)
 
 ### 卫浴、洁具
 
 品牌：箭牌全套
 
+<img src="https://github.com/constling/constling.github.io/blob/master/images/%E8%A3%85%E4%BF%AE/4.jpeg?raw=true" width="50%" height="50%"/>
+
 [卫浴、洁具选择](https://constling.github.io/%E8%A3%85%E4%BF%AE/2018/10/05/%E5%AE%B6%E8%A3%85%E5%8D%AB%E6%B5%B4-%E6%B4%81%E5%85%B7.html)
 
 ### 衣柜
+
+<img src="https://github.com/constling/constling.github.io/blob/master/images/%E8%A3%85%E4%BF%AE/8.jpeg?raw=true?raw=true" width="25%" height="25%"/>
 
 [衣柜选择](https://constling.github.io/%E8%A3%85%E4%BF%AE/2018/10/05/%E5%AE%B6%E8%A3%85%E8%A1%A3%E6%9F%9C.html)
 
