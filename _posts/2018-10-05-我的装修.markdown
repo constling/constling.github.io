@@ -61,15 +61,15 @@ categories: 装修
 
 50断桥+108断桥
 
-<img src="https://github.com/constling/constling.github.io/blob/master/images/%E8%A3%85%E4%BF%AE/5.jpeg?raw=true" width="50%" height="50%"/>
-<img src="https://github.com/constling/constling.github.io/blob/master/images/%E8%A3%85%E4%BF%AE/6.jpeg?raw=true" width="50%" height="50%"/>
-<img src="https://github.com/constling/constling.github.io/blob/master/images/%E8%A3%85%E4%BF%AE/7.jpeg?raw=true" width="50%" height="50%"/>
-
 [封窗选择](https://constling.github.io/%E8%A3%85%E4%BF%AE/2018/10/05/%E5%AE%B6%E8%A3%85%E5%B0%81%E7%AA%97.html)
 
 ### 门
 
 品牌：tata木门
+
+<img src="https://github.com/constling/constling.github.io/blob/master/images/%E8%A3%85%E4%BF%AE/5.jpeg?raw=true" width="50%" height="50%"/>
+<img src="https://github.com/constling/constling.github.io/blob/master/images/%E8%A3%85%E4%BF%AE/6.jpeg?raw=true" width="50%" height="50%"/>
+<img src="https://github.com/constling/constling.github.io/blob/master/images/%E8%A3%85%E4%BF%AE/7.jpeg?raw=true" width="50%" height="50%"/>
 
 [门选择](https://constling.github.io/%E8%A3%85%E4%BF%AE/2018/10/05/%E5%AE%B6%E8%A3%85%E9%97%A8.html)
 
