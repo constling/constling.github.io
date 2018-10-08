@@ -26,14 +26,32 @@ categories: 装修
 * 推荐app：好好住、酷家乐。了解装修的各个步骤，确定自己喜欢的装修风格。
 * 关注家装业主群。业主群里会有各种团购等等，选择还是要慎重。发现团购还是会有不实惠、品质不够好的情况。
 
-[装修准备](https://constling.github.io/%E8%A3%85%E4%BF%AE/2018/10/05/%E5%AE%B6%E8%A3%85%E5%87%86%E5%A4%87.html)
-
 ### 装修公司
-选择好的基装公司是成功的一半
+选择好的基装公司是成功的一半。
+
+公司：琅蜂装饰
 
 [装修公司选择](https://constling.github.io/%E8%A3%85%E4%BF%AE/2018/10/05/%E5%AE%B6%E8%A3%85%E8%A3%85%E4%BF%AE%E5%85%AC%E5%8F%B8.html)
 
-### 中央空调、地暖、新风
+### 中央空调、地暖、新风、暖气片、净水器
+
+公司：好逸家
+
+**中央空调**
+
+品牌型号：日立q3
+
+**地暖**
+
+品牌型号：菲斯曼24/8千瓦
+
+**新风**
+
+品牌型号：霍尼韦尔物理过滤
+
+**净水器**
+
+品牌：德国水丽
 
 [中央空调、地暖、新风选择](https://constling.github.io/%E8%A3%85%E4%BF%AE/2018/10/05/%E5%AE%B6%E8%A3%85%E4%B8%AD%E5%A4%AE%E7%A9%BA%E8%B0%83-%E5%9C%B0%E6%9A%96-%E6%96%B0%E9%A3%8E.html)
 
@@ -43,17 +61,25 @@ categories: 装修
 
 ### 门
 
+品牌：tata木门
+
 [门选择](https://constling.github.io/%E8%A3%85%E4%BF%AE/2018/10/05/%E5%AE%B6%E8%A3%85%E9%97%A8.html)
 
 ### 地板
+
+品牌：创意生活
 
 [地板选择](https://constling.github.io/%E8%A3%85%E4%BF%AE/2018/10/05/%E5%AE%B6%E8%A3%85%E5%9C%B0%E6%9D%BF.html)
 
 ### 橱柜
 
+品牌：金牌橱柜
+
 [橱柜选择](https://constling.github.io/%E8%A3%85%E4%BF%AE/2018/10/05/%E5%AE%B6%E8%A3%85%E6%A9%B1%E6%9F%9C.html)
 
 ### 卫浴、洁具
+
+品牌：箭牌全套
 
 [卫浴、洁具选择](https://constling.github.io/%E8%A3%85%E4%BF%AE/2018/10/05/%E5%AE%B6%E8%A3%85%E5%8D%AB%E6%B5%B4-%E6%B4%81%E5%85%B7.html)
 
@@ -63,13 +89,13 @@ categories: 装修
 
 ### 瓷砖
 
+品牌：极匠室内
+
 [瓷砖选择](https://constling.github.io/%E8%A3%85%E4%BF%AE/2018/10/05/%E5%AE%B6%E8%A3%85%E7%93%B7%E7%A0%96.html)
 
-### 石材
-
-[石材选择](https://constling.github.io/%E8%A3%85%E4%BF%AE/2018/10/05/%E5%AE%B6%E8%A3%85%E7%9F%B3%E6%9D%90.html)
-
 ### 集成吊顶
+
+品牌：容声吊顶
 
 [集成吊顶选择](https://constling.github.io/%E8%A3%85%E4%BF%AE/2018/10/05/%E5%AE%B6%E8%A3%85%E9%9B%86%E6%88%90%E5%90%8A%E9%A1%B6.html)
 
