@@ -17,3 +17,5 @@ categories: update
 * [**今日头条**](https://36kr.com/p/5153656.html)
 * [**千牛开放平台**](https://qndoc.taobao.com/docs/doc.htm?spm=0.7629140.0.0.5ba1LQTpLQTpc1&treeId=5&articleId=102003&docType=1)
 * [**云栖大会**](https://yunqi.youku.com/2018/hangzhou/index)
+* [**微信小程序社区**](http://www.wxapp-union.com/article-1490-1.html)
+* 微信小程序学习：[**视频**](https://daxue.qq.com/content/content/id/4113) [**文档**](https://news.newseed.cn/p/1327742)
