@@ -6,6 +6,7 @@ categories: update
 ---
 
 [google code search](https://cs.chromium.org/)
+[v8 blog](https://v8.dev/blog)
 
 constlingxing@gmail.com
 
