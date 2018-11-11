@@ -29,6 +29,8 @@ categories: update
 * [**google web**](https://developers.google.com/web/?hl=zh-cn)
 * [**chrome blog**](https://blog.chromium.org/)
 * [**github search**](https://www.gitlogs.com/)
+* [**学习搜索**](https://learn-anything.xyz/)
+* [**v8学习**](https://github.com/stevemao/awesome-v8)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
