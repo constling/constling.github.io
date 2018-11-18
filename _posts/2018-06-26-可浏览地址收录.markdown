@@ -18,7 +18,7 @@ categories: update
 * [**tensorflow视频教程**](https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/)
 * [**tensorflow**](https://www.tensorflow.org/get_started/?hl=zh-cn)
 * [**google web**](https://developers.google.com/web/?hl=zh-cn)
-* [**mac Project**](https://github.com/serhii-londar/open-source-mac-os-apps)
+* [**mac Project**](https://github.com/serhii-londar/open-source-mac-os-apps)
 * [**互联网公司技术架构**](https://github.com/davideuler/architecture.of.internet-product)
 * [**mobiletech**](https://github.com/jtyjty99999/mobileTech)
 * [**后端技术架构图谱**](https://github.com/xingshaocheng/architect-awesome)
@@ -32,6 +32,8 @@ categories: update
 * [**学习搜索**](https://learn-anything.xyz/)
 * [**v8学习**](https://github.com/stevemao/awesome-v8)
 * [**photopea**](https://www.photopea.com/)
+* [**36kr**](https://36kr.com/)
+* [**electron**](http://electronjs.org/apps)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
