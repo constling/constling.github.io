@@ -31,6 +31,7 @@ categories: update
 * [**github search**](https://www.gitlogs.com/)
 * [**学习搜索**](https://learn-anything.xyz/)
 * [**v8学习**](https://github.com/stevemao/awesome-v8)
+* [**photopea**](https://www.photopea.com/)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 

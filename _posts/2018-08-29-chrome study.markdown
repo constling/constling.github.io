@@ -6,7 +6,10 @@ categories: update
 ---
 
 [google code search](https://cs.chromium.org/)
+
 [v8 blog](https://v8.dev/blog)
+
+[调试原理](https://blog.csdn.net/steward2011/article/details/52196008)
 
 constlingxing@gmail.com
 
