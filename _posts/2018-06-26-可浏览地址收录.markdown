@@ -34,6 +34,7 @@ categories: update
 * [**photopea**](https://www.photopea.com/)
 * [**36kr**](https://36kr.com/)
 * [**electron**](http://electronjs.org/apps)
+* [**Electron 中文文档**](https://www.kancloud.cn/wizardforcel/electron-doc)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
