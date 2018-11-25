@@ -6,6 +6,7 @@ categories: update
 ---
 
 [google code search](https://cs.chromium.org/)
+[chrome code](https://cs.chromium.org/chromium/src/)
 
 [v8 blog](https://v8.dev/blog)
 
