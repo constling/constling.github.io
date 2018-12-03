@@ -19,24 +19,15 @@ categories: update
 * [**云栖大会**](https://yunqi.youku.com/2018/hangzhou/index)
 * [**微信小程序社区**](http://www.wxapp-union.com/article-1490-1.html)
 * [**vueconf**](https://vue.w3ctech.com/#speakers)
-* 微信小程序学习：[**视频**](https://daxue.qq.com/content/content/id/4113) [**文档**](https://news.newseed.cn/p/1327742)
+* 微信小程序学习：[**视频**](https://daxue.qq.com/content/content/id/4113) 
+[**文档**](https://news.newseed.cn/p/1327742)
 
 
-**待学习文档**
-
+**玩转github**
 https://github.com/github-serendipity/github-serendipity.github.io/issues/1
-
-https://www.producthunt.com/
-
-https://www.gitlogs.com/
-
-
-小程序的冷热启动
-https://blog.csdn.net/belvine/article/details/80447120
 
 跨平台技术
 http://fex.baidu.com/blog/2015/05/cross-mobile/
 
 微信小程序
 http://www.imooc.com/article/73259
-https://imnerd.org/some-about-wxapp.html
