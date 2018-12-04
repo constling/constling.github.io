@@ -38,6 +38,7 @@ categories: update
 * [**awesome**](https://github-serendipity.github.io/repo/sindresorhus___awesome-nodejs)
 * [**producthunt**](https://www.producthunt.com/)
 * [**微信公开课**](https://daxue.qq.com/wechat/wechat_list/cat_id/204)
+* [**腾讯大学**](https://daxue.qq.com/)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
