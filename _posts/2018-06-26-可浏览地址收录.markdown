@@ -39,6 +39,7 @@ categories: update
 * [**producthunt**](https://www.producthunt.com/)
 * [**微信公开课**](https://daxue.qq.com/wechat/wechat_list/cat_id/204)
 * [**腾讯大学**](https://daxue.qq.com/)
+* [**极客学院**](http://wiki.jikexueyuan.com/project/cplusplus/overview.html)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
