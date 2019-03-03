@@ -11,6 +11,7 @@ categories: update
 [v8 blog](https://v8.dev/blog)
 
 [调试原理](https://blog.csdn.net/steward2011/article/details/52196008)
+[chrome urls](chrome://chrome-urls/)
 
 constlingxing@gmail.com
 
