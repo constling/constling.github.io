@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Java面试"
-date:   2018-11-28 22:05:00
+date:   2019-05-26 22:05:00
 categories: 其它
 ---
 
@@ -74,9 +74,11 @@ CS系统升级难。BS由构件组成，升级容易。
 **Servlet**
 Servlet是指在服务端运行的小程序。
 待学习：
-https://www.runoob.com/servlet/servlet-tutorial.html
+[链接](https://www.runoob.com/servlet/servlet-tutorial.html)
+
 **ajax**
 待学习
+
 **CORBA**
 待学习
 
@@ -86,12 +88,27 @@ finalize用于在GC发生前事先调用去回收JNI调用中申请的特殊内�
 * [链接](https://blog.csdn.net/Justin_zhao/article/details/74358828)
 
 **JNI**
- Java Natibe Inetrface：Java 是跨平台的语言，但是在有些时候仍然是有需要调用本地代码。
+Java Natibe Inetrface：Java 是跨平台的语言，但是在有些时候仍然是有需要调用本地代码。
 
- **volatile**
- 多线程并发访问对象的变量时。对象的变量被拷贝到线程的内存区域。多线程并发访问不正确。
+**volatile**
+多线程并发访问对象的变量时。对象的变量被拷贝到线程的内存区域。多线程并发访问不正确。
 
- **符号==**
- ==就是用来比较值是否相等。
- **其它**
- * a = a + b，当类型不匹配时会报错。a += b，则会自动转换。
+**符号==**
+==就是用来比较值是否相等。
+
+**其它**
+* a = a + b，当类型不匹配时会报错。a += b，则会自动转换。
+
+
+**GC策略**
+1. 标记-清除算法
+2. 复制算法
+3. 标记-整理算法
+
+**数据区**
+java运行数据区：[链接](https://www.cnblogs.com/dolphin0520/p/3613043.html)
+* 程序计数器
+* Java栈
+* 本地方法栈
+* 方法区
+* 堆

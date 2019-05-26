@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Sprint框架学习"
+date:   2019-05-26 22:05:00
+categories: 其它
+---
+
+**概念**
+1. 依赖倒置：
+上层模块不应该依赖于下层模块，它们共同依赖于一个抽象。抽象不能依赖于具象，具象依赖于抽象。
+
+2. 控制反转
+模块与模块之间通过抽象来建立连接。具体使用的模块，交由配置文件来控制，实现控制转移。
+控制反转IoC，是说对象的控制权进行转移，转移到第三方。比如转移交给了IoC容器，它就是一个创建工厂，你要什么对象，它就给你什么对象，有了IoC容器，依赖关系就变了，原先的依赖关系就没了，它们都依赖IoC容器了，通过IoC容器来建立它们之间的关系。
+[链接](https://www.cnblogs.com/Mr-Rocker/p/7721824.html)
+
+3. 面向切面aop
+[链接](https://www.cnblogs.com/Wolfmanlq/p/6036019.html)
+
+
+### Spring
+Spring是一个轻量级的控制反转(IoC)和面向切面(AOP)的容器框架。
+
+**Spring是什么**
+Spring是一个库，它的功能是提供了一个软件框架，这个框架目的是使软件之间的逻辑更加清晰，配置更灵活，实现这个目的的手段使用AOP和IoC。
+
+**spring教程**
+[链接](https://www.yiibai.com/spring/spring-tutorial-for-beginners.html)
+
+**特点**
+1. 轻量
+2. 控制反转
+3. 面向切面
+
+
+**相关学习**
+* [Maven链接](https://www.yiibai.com/maven/)
