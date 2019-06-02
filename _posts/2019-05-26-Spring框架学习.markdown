@@ -5,6 +5,7 @@ date:   2019-05-26 22:05:00
 categories: 其它
 ---
 
+## Spring架构
 **概念**
 1. 依赖倒置：
 上层模块不应该依赖于下层模块，它们共同依赖于一个抽象。抽象不能依赖于具象，具象依赖于抽象。
@@ -56,5 +57,11 @@ Spring是一个库，它的功能是提供了一个软件框架，这个框架�
 * [Maven链接](https://www.yiibai.com/maven/)
 * [Spring](https://www.w3cschool.cn/wkspring/pesy1icl.html)
 
+## ORM架构
+
+**myBatis与Hibernate相比主要优势**
+**Redis持久化有哪些方式**
+**Nignx与Apache的原理及不同**
 
 **定义自己的原则**
+[待学习]
