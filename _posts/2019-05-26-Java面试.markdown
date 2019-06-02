@@ -179,6 +179,11 @@ GC Roots都有哪些： 1. 虚拟机栈中的引用的对象 2. 方法区中静�
 * sleep睡眠后不出让系统资源，wait让出系统资源其他线程可以占用CPU
 * sleep(milliseconds)需要指定一个睡眠时间，时间一到会自动唤醒
 
+**Servlet**
+Servlet是运行于服务端的java程序，一般实现自己的Java服务端应用都从HttpServlet类继承，然后实现自己的init | doGet | doPost | service方法。Servlet的生命周期从其加载开始，首先执行一次初始化，调用init方法，之后便可运行自身的服务，当生命周期结束时，调用destroy方法回收资源，结束服务。
+仅了解原理当然是不够的，还要实战能力，在IDE中写写简单的代码谁都会，然而真正让一个程序能够运行起来也还需要点其他的东西，这里我指的是Servlet的容器。servlet的容器有很多，常用的以Tomcat为例，安装好Tomcat后，在开发时必须包含进Tomcat的lib。IDE确实惯坏了好多人，目录如何组织，程序如何编译、如何部署这些问题都被IDE屏蔽掉了，如果要对整体有比较透彻的了解，建议一切从命令行动手。
+具体可参考：《Servlet与JSP核心编程》。
+
 **HashMap & ConcurrentHashMap**
 **显示锁&内置锁的区别**
 **AQS**
