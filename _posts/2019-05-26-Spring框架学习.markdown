@@ -36,6 +36,22 @@ Spring是一个库，它的功能是提供了一个软件框架，这个框架�
 * bean关注的是一个对象的抽象化。比如使用数据库的属性、名称等。
 * context将无关的内容配置化，编程只用关注接口内容。比如：数据库访问，不用关心数据库的名称、方式。只用使用数据库的读写、存储等。
 
+
+**Spring for Jdbc的意义**
+* 统一管理连接。
+* 节省Jdbc操作重复代码封装与编写。
+
+**JdbcTemplate的优点**
+* 配置基于模板设置
+* 完成了资源的创建和释放的工作
+* 完成了对JDBC的核心流程的工作，包括SQL语句的创建和执行，简化了对JDBC的操作
+* 仅需要传递DataSource就可以把它实例化
+* JdbcTemplate只需要创建一次，减少了代码复用的烦恼
+* JdbcTemplate是线程安全类
+
+**Java持久化**
+[待学习链接](https://blog.csdn.net/qq_39470733/article/details/80166949)
+
 **相关学习**
 * [Maven链接](https://www.yiibai.com/maven/)
 * [Spring](https://www.w3cschool.cn/wkspring/pesy1icl.html)

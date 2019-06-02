@@ -17,6 +17,9 @@ categories: 其它
 
 ## jAVA基础
 
+**后端技术**
+[学习链接](https://github.com/xingshaocheng/architect-awesome)
+
 **ACID**
 
 * 原子性（Atomicity）: 事务的操作一起完成、一起失败。
@@ -148,3 +151,11 @@ Java ME包括灵活的用户界面、健壮的安全模型、许多内置的网�
 * [学习链接](https://blog.csdn.net/master_yao/article/details/61672910)
 
 ## java bean?
+
+## https如何防止劫持
+* https的安全基础是SSL。http+ssl=https。
+* SSL提供加解密服务。
+
+
+## 待学习
+* mybatis的实现原理及源码。
