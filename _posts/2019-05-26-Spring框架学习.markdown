@@ -32,5 +32,13 @@ Spring是一个库，它的功能是提供了一个软件框架，这个框架�
 2. 控制反转
 3. 面向切面
 
+**context对于bean的好处**
+* bean关注的是一个对象的抽象化。比如使用数据库的属性、名称等。
+* context将无关的内容配置化，编程只用关注接口内容。比如：数据库访问，不用关心数据库的名称、方式。只用使用数据库的读写、存储等。
+
 **相关学习**
 * [Maven链接](https://www.yiibai.com/maven/)
+* [Spring](https://www.w3cschool.cn/wkspring/pesy1icl.html)
+
+
+**定义自己的原则**

@@ -78,6 +78,7 @@ CS系统升级难。BS由构件组成，升级容易。
 **AOP**
 面向切面编程，通过预编译方式和运行期动态代理实现程序功能的统一维护的一种技术。
 个人理解就是提供了一些扩展点，以某种机制注入进去使用。
+[aop的实现方式](https://www.cnblogs.com/xiaoxi/p/5981514.html)
 
 **Servlet**
 Servlet是指在服务端运行的小程序。
@@ -126,3 +127,24 @@ java运行数据区：[链接](https://www.cnblogs.com/dolphin0520/p/3613043.htm
 * 基于远程过程调用的中间件，允许一个应用程序中的过程调用远程应用程序中的过程，就好像它们是本地调用一样。该中间件实现一个查找远程过程的链接机制并使调用方能够以透明方式使用这些过程。以前，这种类型的中间件处理基于过程的程序；现在，它还包括基于对象的组件。
 * 基于对象请求代理 (Object Request Broker, ORB) 的中间件，使应用程序的对象能够在异类网络之间分布和共享。
 * 面向消息的中间件或基于 MOM 的中间件，使分布式应用程序可以通过发送和接收消息来进行通信和交换数据。
+
+## java三个版本的理解
+Java分三个版本: JavaSE(标准版)、JavaEE(企业版)、JavaME(微型版) ，其中JavaSE 是Java编程语言的基础, JavaEE是用于公司的PC端开发的，而JavaME是用于移动端开发的。
+
+1. Java SE ( Java Platform , Standard Edition )。
+Java SE以前称为J2SE。它允许开发和部署在桌面、服务器、嵌入式环境和实时环境中使用的Java 应用程序。
+Java SE包含了支持Java Web服务开发的类,为Java Platform ，Enterprise Edition ( JavaEE )提供基础。
+
+2. Java EE( Java Platform , Enterprise Edition )。 
+这个版本以前称为J2EE。企业版本帮助开发和部署可移植、健壮、可伸缩且安全的服务器端Java 应用程序。
+JavaEE是在JavaSE的基础上构建的,它提供Web服务、组件模型、管理和通信API ,可以用来实现企业级的面向服务体系结构( service-orientedarchitecture , SOA )和Web 2.0应用程序。
+
+3. Java ME ( Java Platform , Micro Edition )。
+
+这个版本以前称为J2ME。Java ME为在移动设备和嵌入式设备(比如手机、PDA、电视机顶盒和打印机)上运行的应用程序提供一 个健壮且灵活的环境。
+Java ME包括灵活的用户界面、健壮的安全模型、许多内置的网络协议以及对可以动态下载的连网和离线应用程序的丰富支持。
+
+## java ee
+* [学习链接](https://blog.csdn.net/master_yao/article/details/61672910)
+
+## java bean?
