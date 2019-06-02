@@ -42,6 +42,7 @@ categories: update
 * [**微信公开课**](https://daxue.qq.com/wechat/wechat_list/cat_id/204)
 * [**腾讯大学**](https://daxue.qq.com/)
 * [**极客学院**](http://wiki.jikexueyuan.com/project/cplusplus/overview.html)
+* [**代码**](https://leetcode.com/)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
