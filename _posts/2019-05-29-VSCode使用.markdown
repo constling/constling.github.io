@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "VSCode使用"
+date:   2019-05-29 22:05:00
+categories: 其它
+---
+
+**概念**
+
+##创建maven项目##
+
+1. 按下Ctrl + Shift + P打开命令选项板。
+2. 键入Spring Initializr开始生成Maven或Gradle项目(我选择的是创建maven项目)
