@@ -43,7 +43,16 @@ https://blog.csdn.net/u010105645/article/details/82052505
 * 一个代理对象，一个接口，一个实现接口的实例对象。通过构造、set方法设置代理。通过getInstance返回代理的实例对象。
 
 ** 动态代理对象
-https://www.cnblogs.com/akaneblog/p/6720513.html
+https://blog.csdn.net/m0_38039437/article/details/77970633
 
+5. java的内存模型
+
+6. spring的六个模块
+core:ioc container,配置和Java对象的生命周期管理。
+aop:
+dao:
+orm:
+jee:
+web
 
 
