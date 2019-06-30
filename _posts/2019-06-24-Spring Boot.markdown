@@ -13,6 +13,9 @@ Spring Boot 是 Spring 开源组织下的子项目，是 Spring 组件一站式�
 面试题目
 https://blog.csdn.net/zl1zl2zl3/article/details/83715633
 
+spring的面试题目
+https://blog.csdn.net/hrbeuwhw/article/details/79476988
+
 学习地址
 https://blog.csdn.net/ityouknow/article/details/80490926
 
@@ -48,6 +51,8 @@ https://blog.csdn.net/m0_38039437/article/details/77970633
 5. java的内存模型
 
 6. spring的六个模块
+Spring Core，AOP，ORM，DAO，MVC，WEB，Context。
+
 core:ioc container,配置和Java对象的生命周期管理。
 aop:
 Spring AOP(面向方面编程)框架，用于在模块化方面的横切关注点。简单得说，它只是一个拦截器拦截一些过程，
@@ -65,8 +70,6 @@ dao:
 orm:(habinate)
 ORM的全称是Object Relational Mapping，即对象关系映射。它的实现思想就是将关系数据库中表的数据映射成为对象，以对象的形式展现，这样开发人员就可以把对数据库的操作转化为对这些对象的操作。因此它的目的是为了方便开发人员以面向对象的思想来实现对数据库的操作。
 
-
-jee:
 web
 
 7. spring的自动装配
@@ -105,3 +108,54 @@ https://www.yiibai.com/spring/spring_transaction_management.html
 * 第三范式需要确保数据表中的每一列数据都和主键直接相关，而不能间接相关。
 
 按班级、老师、学生设计表。
+
+14. ApplicationContext
+提供应用级别的全局配置。
+
+
+评估机器的消耗。
+
+## JDBC
+https://wenku.baidu.com/view/1d1c7875a31614791711cc7931b765ce05087ad8.html
+
+JDBC提供了数据库访问的api，提供多种数据库访问的统一访问。
+
+三层框架：
+通常意义上的三层架构就是将整个业务应用划分为：表现层（UI）、业务逻辑层（BLL）、
+数据访问层（DAL）。区分层次的目的即为了“高内聚，低耦合”的思想。
+
+原理：
+1：数据访问层：主要是对原始数据（数据库或者文本文件等存放数据的形式）的操作层，而不是指原始数据，也就是说，
+是对数据的操作，而不是数据库，具体为业务逻辑层或表示层提供数据服务．
+2：业务逻辑层：主要是针对具体的问题的操作，也可以理解成对数据层的操作，对数据业务逻辑处理，如果说数据层是积木，那逻辑层就是对这些积木的搭建。
+3：表示层：主要表示用户的操作终端，如果逻辑层相当强大和完善，无论表现层如何定义和更改，逻辑层都能完善地提供服务。
+
+* Spring 通过提供ORM模块，支持我们在直接JDBC之上使用一个对象/关系映射映射(ORM)工具，Spring 支持集成主流的ORM框架，如Hiberate,JDO和 iBATIS SQL Maps。Spring的事务管理同样支持以上所有ORM框架及JDBC。
+
+* 你两种依赖方式都可以使用，构造器注入和Setter方法注入。最好的解决方案是用构造器参数实现强制依赖，setter方法实现可选依赖。
+
+* 你怎样定义类的作用域?
+当定义一个<bean> 在Spring里，我们还能给这个bean声明一个作用域。它可以通过bean 定义中的scope属性来定义。如，当Spring要在需要的时候每次生产一个新的bean实例，bean的scope属性被指定为prototype。另一方面，一个bean每次使用的时候必须返回同一个实例，这个bean的scope 属性 必须设为 singleton。
+
+* 解释Spring支持的几种bean的作用域。
+Spring框架支持以下五种bean的作用域：
+
+singleton : bean在每个Spring ioc 容器中只有一个实例。
+prototype：一个bean的定义可以有多个实例。
+request：每次http请求都会创建一个bean，该作用域仅在基于web的Spring ApplicationContext情形下有效。
+session：在一个HTTP Session中，一个bean定义对应一个实例。该作用域仅在基于web的Spring ApplicationContext情形下有效。
+global-session：在一个全局的HTTP Session中，一个bean定义对应一个实例。该作用域仅在基于web的Spring ApplicationContext情形下有效。
+缺省的Spring bean 的作用域是Singleton.
+
+* Spring框架中的单例bean不是线程安全的。
+
+
+* spring bean的完整生命周期
+https://www.cnblogs.com/jasonboren/p/10660937.html
+
+redis  memcache ？
+
+tomcat搭建一个完整的项目。
+
+**ORM**
+https://blog.csdn.net/csdnliuxin123524/article/details/88359309
