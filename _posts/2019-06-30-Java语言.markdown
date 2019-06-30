@@ -5,23 +5,39 @@ date:   2019-06-30 22:00:00
 categories: 面试
 ---
 
-## java原理
+## java简介
 
-## java三个版本的理解
 Java分三个版本: JavaSE(标准版)、JavaEE(企业版)、JavaME(微型版) ，其中JavaSE 是Java编程语言的基础, JavaEE是用于公司的PC端开发的，而JavaME是用于移动端开发的。
 
-1. Java SE ( Java Platform , Standard Edition )。
+**Java SE ( Java Platform , Standard Edition )**
+
 Java SE以前称为J2SE。它允许开发和部署在桌面、服务器、嵌入式环境和实时环境中使用的Java 应用程序。
 Java SE包含了支持Java Web服务开发的类,为Java Platform ，Enterprise Edition ( JavaEE )提供基础。
 
-2. Java EE( Java Platform , Enterprise Edition )。 
+**Java EE( Java Platform , Enterprise Edition )**
+
 这个版本以前称为J2EE。企业版本帮助开发和部署可移植、健壮、可伸缩且安全的服务器端Java 应用程序。
 JavaEE是在JavaSE的基础上构建的,它提供Web服务、组件模型、管理和通信API ,可以用来实现企业级的面向服务体系结构( service-orientedarchitecture , SOA )和Web 2.0应用程序。
 
-3. Java ME ( Java Platform , Micro Edition )。
+**Java ME ( Java Platform , Micro Edition )**
 
 这个版本以前称为J2ME。Java ME为在移动设备和嵌入式设备(比如手机、PDA、电视机顶盒和打印机)上运行的应用程序提供一 个健壮且灵活的环境。
 Java ME包括灵活的用户界面、健壮的安全模型、许多内置的网络协议以及对可以动态下载的连网和离线应用程序的丰富支持。
+
+## java语言
+**Java修饰符**
+
+* 访问控制修饰符 : default, public , protected, private
+* 非访问控制修饰符 : final, abstract, static, synchronized
+
+**synchronized修饰符**
+
+* 某个对象实例内，synchronized aMethod(){}关键字可以防止多个线程访问对象的synchronized方法。
+* synchronized关键字是不能继承的。
+
+* 当一个线程访问object的一个synchronized(this)同步代码块时，另一个线程仍然可以访问该object中的非synchronized(this)同步代码块。
+
+* 当一个线程访问object的一个synchronized(this)同步代码块时，它就获得了这个object的对象锁。结果，其它线程对该object对象所有同步代码部分的访问都被暂时阻塞。
 
 ## java ee
 * [学习链接](https://blog.csdn.net/master_yao/article/details/61672910)
