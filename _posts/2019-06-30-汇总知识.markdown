@@ -14,6 +14,7 @@ categories: 面试
 * 存储
 * 数据库
 * 多线程。
+* [服务端架构](https://blog.csdn.net/xyphf/article/details/81151486)
 
 
 ## 数据库
