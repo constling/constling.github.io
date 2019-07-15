@@ -117,3 +117,17 @@ AQS定义了一套多线程访问共享资源的同步器框架。
 **如何进web优化**
 
 mybatis的实现原理及源码。
+
+## 待整理
+
+spring、tomcat、memcache、redis.
+
+前台、中台、后台。
+
+后台:（通用存储）、 rpc、实时计算。(redis,轻量；) ；rpc,负载均hen。http、
+
+中台：搜索、推荐、账号管理。
+
+前台：spring、tomcat、apache。
+
+问题、拆解、设计
