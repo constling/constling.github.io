@@ -7,54 +7,50 @@ categories: 其它
 
 
 **什么是Spring Boot**
+
 Spring Boot 是 Spring 开源组织下的子项目，是 Spring 组件一站式解决方案，主要是简化了使用 Spring 的难度，简省了繁重的配置，提供了各种启动器，开发者能快速上手。
 
 **链接**
-面试题目
-https://blog.csdn.net/zl1zl2zl3/article/details/83715633
 
-spring的面试题目
-https://blog.csdn.net/hrbeuwhw/article/details/79476988
+[面试题目](https://blog.csdn.net/zl1zl2zl3/article/details/83715633)
 
-学习地址
-https://blog.csdn.net/ityouknow/article/details/80490926
+[spring的面试题目](https://blog.csdn.net/hrbeuwhw/article/details/79476988)
 
+[学习地址](https://blog.csdn.net/ityouknow/article/details/80490926)
 
-JAVA面试题：
-https://blog.csdn.net/u010105645/article/details/82052505
+[JAVA面试题](https://blog.csdn.net/u010105645/article/details/82052505)
 
+[Spring事务管理](https://www.yiibai.com/spring/spring_transaction_management.html)
+
+[aop拦截原理](https://www.cnblogs.com/itlove/p/3644824.html)
+
+[aop配置理解](https://www.jianshu.com/p/605ad9f5c186)
 
 ## 面试足迹
-1. java中的"=="与"equal"。
-"=="对比的是地址，"equal"对比的是数值。
 
-2. java中的代码执行顺序。
-* 父类静态成员和静态初始化块 ，按在代码中出现的顺序依次执行
-* 子类静态成员和静态初始化块 ，按在代码中出现的顺序依次执行
-结论：对象初始化的顺序，先静态方法，再构造方法，每个又是先基类后子类
-* 父类实例成员和实例初始化块 ，按在代码中出现的顺序依次执行
-* 父类构造方法
-* 子类实例成员和实例初始化块 ，按在代码中出现的顺序依次执行
-* 子类构造方法
+**运行时异常与一般异常的异同**
 
-3. 运行时异常与一般异常的异同
-运行时异常runtime exception和一般异常checked exception，对于后者而言，JAVA要求程序员对其进行catch。所以，不管我们是否愿意，只能自己去写一大堆catch块去处理可能的异常。
-运行时异常我们可以不处理。这样的异常由虚拟机接管。出现运行时异常后，系统会把异常一直往上层抛，一直遇到处理代码。
-如果不对运行时异常进行处理，那么出现运行时异常之后，要么是线程中止，要么是主程序终止。　
+出现运行时异常后，系统会把异常一直往上层抛，一直遇到处理代码。如果没有处理块，到最上层，如果是多线程就由Thread.run()抛出，如果是单线程就被main()抛出。抛出之后，如果是线程，这个线程也就退出了。如果是主程序抛出的异常，那么这整个程序也就退出了。运行时异常是Exception的子类，也有一般异常的特点，是可以被Catch块处理的。只不过往往我们不对他处理罢了。也就是说，你如果不对运行时异常进行处理，那么出现运行时异常之后，要么是线程中止，要么是主程序终止。
 
-4. java代理
-* 一个代理对象，一个接口，一个实现接口的实例对象。通过构造、set方法设置代理。通过getInstance返回代理的实例对象。
 
-** 动态代理对象
-https://blog.csdn.net/m0_38039437/article/details/77970633
+**动态代理对象**
 
-5. java的内存模型
+在动态代理技术里，由于不管用户调用代理对象的什么方法，都是调用开发人员编写的处理器的invoke方法（这相当于invoke方法拦截到了代理对象的方法调用）。并且，开发人员通过invoke方法的参数，还可以在拦截的同时，知道用户调用的是什么方法，因此利用这两个特性，就可以实现一些特殊需求，例如：拦截用户的访问请求，以检查用户是否有访问权限、动态为某个对象添加额外的功能。
 
-6. spring的六个模块
+
+**java的内存模型**
+
+
+**spring的六个模块**
+
 Spring Core，AOP，ORM，DAO，MVC，WEB，Context。
 
-core:ioc container,配置和Java对象的生命周期管理。
-aop:
+* core:
+
+ioc container,配置和Java对象的生命周期管理。
+
+* aop:
+
 Spring AOP(面向方面编程)框架，用于在模块化方面的横切关注点。简单得说，它只是一个拦截器拦截一些过程，
 例如，当一个方法执行，Spring AOP 可以劫持一个执行的方法，在方法执行之前或之后添加额外的功能。
 在Spring AOP中，有 4 种类型通知(advices)的支持：			
@@ -63,60 +59,48 @@ Spring AOP(面向方面编程)框架，用于在模块化方面的横切关注�
 通知(Advice)抛出之后 – 运行方法抛出异常后，		
 环绕通知 – 环绕方法执行运行，结合以上这三个通知。
 
+* dao:
 
-dao:
 用程序设计的语言来说，就是建立一个接口，接口中定义了此应用程序中将会用到的所有事务方法。在这个应用程序中，当需要和数据源进行交互的时候则使用这个接口，并且编写一个单独的类来实现这个接口在逻辑上对应这个特定的数据存储。
 
-orm:(habinate)
+* orm:(habinate)
+
 ORM的全称是Object Relational Mapping，即对象关系映射。它的实现思想就是将关系数据库中表的数据映射成为对象，以对象的形式展现，这样开发人员就可以把对数据库的操作转化为对这些对象的操作。因此它的目的是为了方便开发人员以面向对象的思想来实现对数据库的操作。
 
 web
 
-7. spring的自动装配
+**spring的自动装配**
+
 spring的ioc容器实现了对象的依赖注入，将注入的对象通过xml文件配置。注入的对象的实现实例，由多种方式决定。包括默认的none，需要显示设置；name装配；type装配；构造函数；自动检测；
 
-8. aop配置理解
-切入点：定义要匹配的方法名称。
-advisor：切入点以及方法对象。
-配置对象。
-aop对象理解：
-https://www.jianshu.com/p/605ad9f5c186
+**CGLIB代理**
 
-9. CGLIB代理
+**事务**
 
-10. 事务
 定义事件的开始 - 事件处理过程 - 事件提交 - 事件回滚
- 这样代码在AOP的倡导者看来是“肮脏”的代码。他们认为，所有的与事务有关的方法都应当可以集中配置（见声明性事务控制），并自动拦截，程序应当关心他们的主要任务，即商业逻辑，而不应和事务处理的代码搅和在一起。
 
-https://www.cnblogs.com/itlove/p/3644824.html
+这样代码在AOP的倡导者看来是“肮脏”的代码。他们认为，所有的与事务有关的方法都应当可以集中配置（见声明性事务控制），并自动拦截，程序应当关心他们的主要任务，即商业逻辑，而不应和事务处理的代码搅和在一起。
 
-11. aop的缓存配置
 
-12. ORM的缺点
+**aop的缓存配置**
+
+**ORM的缺点**
+
 但是ORM和DAO产生的缺点是：
-1.从系统结构上来看,采用ORM的系统一般都是多层系统，系统的层次多了，效率就会降低。
-2.如果用上了ORM,程序员很有可能将全部的数据提取到内存对象中，然后再进行过滤和加工处理，这样就容易产生性能问题。
-3.在对对象做持久化时，ORM一般会持久化所有的属性，有时，这是不希望的。
-4.但ORM是一种工具，工具确实能解决一些重复，简单的劳动但我们不能指望工具能一劳永逸的解决所有问题，有
 
-这个文档怎么定义
-https://www.yiibai.com/spring/spring_transaction_management.html
+* 从系统结构上来看,采用ORM的系统一般都是多层系统，系统的层次多了，效率就会降低。
+* 如果用上了ORM,程序员很有可能将全部的数据提取到内存对象中，然后再进行过滤和加工处理，这样就容易产生性能问题。
+* 在对对象做持久化时，ORM一般会持久化所有的属性，有时，这是不希望的。
+* 但ORM是一种工具，工具确实能解决一些重复，简单的劳动但我们不能指望工具能一劳永逸的解决所有问题，有
 
-13. sql的设计范式
-* 第一范式：表中的所有字段值都是不可分解的原子值。
-* 第二范式：需要确保数据库表中每一列都和主键相关，而不能只与主键的某一部分相关（主要针对联合主键而言）
-* 第三范式需要确保数据表中的每一列数据都和主键直接相关，而不能间接相关。
+**ApplicationContext**
 
-按班级、老师、学生设计表。
-
-14. ApplicationContext
 提供应用级别的全局配置。
 
 
-评估机器的消耗。
-
 ## JDBC
-https://wenku.baidu.com/view/1d1c7875a31614791711cc7931b765ce05087ad8.html
+
+[三层架构](https://wenku.baidu.com/view/1d1c7875a31614791711cc7931b765ce05087ad8.html)
 
 JDBC提供了数据库访问的api，提供多种数据库访问的统一访问。
 
@@ -125,37 +109,32 @@ JDBC提供了数据库访问的api，提供多种数据库访问的统一访问�
 数据访问层（DAL）。区分层次的目的即为了“高内聚，低耦合”的思想。
 
 原理：
-1：数据访问层：主要是对原始数据（数据库或者文本文件等存放数据的形式）的操作层，而不是指原始数据，也就是说，
+* 数据访问层：主要是对原始数据（数据库或者文本文件等存放数据的形式）的操作层，而不是指原始数据，也就是说，
 是对数据的操作，而不是数据库，具体为业务逻辑层或表示层提供数据服务．
-2：业务逻辑层：主要是针对具体的问题的操作，也可以理解成对数据层的操作，对数据业务逻辑处理，如果说数据层是积木，那逻辑层就是对这些积木的搭建。
-3：表示层：主要表示用户的操作终端，如果逻辑层相当强大和完善，无论表现层如何定义和更改，逻辑层都能完善地提供服务。
+* 业务逻辑层：主要是针对具体的问题的操作，也可以理解成对数据层的操作，对数据业务逻辑处理，如果说数据层是积木，那逻辑层就是对这些积木的搭建。
+* 表示层：主要表示用户的操作终端，如果逻辑层相当强大和完善，无论表现层如何定义和更改，逻辑层都能完善地提供服务。
 
 * Spring 通过提供ORM模块，支持我们在直接JDBC之上使用一个对象/关系映射映射(ORM)工具，Spring 支持集成主流的ORM框架，如Hiberate,JDO和 iBATIS SQL Maps。Spring的事务管理同样支持以上所有ORM框架及JDBC。
 
 * 你两种依赖方式都可以使用，构造器注入和Setter方法注入。最好的解决方案是用构造器参数实现强制依赖，setter方法实现可选依赖。
 
 * 你怎样定义类的作用域?
+
 当定义一个<bean> 在Spring里，我们还能给这个bean声明一个作用域。它可以通过bean 定义中的scope属性来定义。如，当Spring要在需要的时候每次生产一个新的bean实例，bean的scope属性被指定为prototype。另一方面，一个bean每次使用的时候必须返回同一个实例，这个bean的scope 属性 必须设为 singleton。
 
-* 解释Spring支持的几种bean的作用域。
-Spring框架支持以下五种bean的作用域：
+**解释Spring支持的几种bean的作用域**
 
-singleton : bean在每个Spring ioc 容器中只有一个实例。
-prototype：一个bean的定义可以有多个实例。
-request：每次http请求都会创建一个bean，该作用域仅在基于web的Spring ApplicationContext情形下有效。
-session：在一个HTTP Session中，一个bean定义对应一个实例。该作用域仅在基于web的Spring ApplicationContext情形下有效。
-global-session：在一个全局的HTTP Session中，一个bean定义对应一个实例。该作用域仅在基于web的Spring ApplicationContext情形下有效。
-缺省的Spring bean 的作用域是Singleton.
+* singleton : bean在每个Spring ioc 容器中只有一个实例。
+* prototype：一个bean的定义可以有多个实例。
+* request：每次http请求都会创建一个bean，该作用域仅在基于web的Spring ApplicationContext情形下有效。
+* session：在一个HTTP Session中，一个bean定义对应一个实例。该作用域仅在基于web的Spring ApplicationContext情形下有效。
+* global-session：在一个全局的HTTP Session中，一个bean定义对应一个实例。该作用域仅在基于web的Spring ApplicationContext情形下有效。
+* 缺省的Spring bean 的作用域是Singleton.
 
-* Spring框架中的单例bean不是线程安全的。
+**Spring框架中的单例bean不是线程安全的**
 
 
-* spring bean的完整生命周期
-https://www.cnblogs.com/jasonboren/p/10660937.html
+**spring bean的完整生命周期**
 
-redis  memcache ？
+[链接](https://www.cnblogs.com/jasonboren/p/10660937.html)
 
-tomcat搭建一个完整的项目。
-
-**ORM**
-https://blog.csdn.net/csdnliuxin123524/article/details/88359309
