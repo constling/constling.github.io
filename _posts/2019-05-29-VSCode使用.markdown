@@ -11,3 +11,6 @@ categories: 其它
 
 1. 按下Ctrl + Shift + P打开命令选项板。
 2. 键入Spring Initializr开始生成Maven或Gradle项目(我选择的是创建maven项目)
+
+
+Macintosh HD/Library/Receipts/InstallHistory.plist
