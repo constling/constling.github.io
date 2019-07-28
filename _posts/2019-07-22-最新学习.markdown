@@ -5,12 +5,18 @@ date:   2019-07-22 22:00:00
 categories: 面试
 ---
 
-## 学习链接
+## 链接
+
 [http版本更新](https://www.sohu.com/a/152686075_268033)
+
 [grpc线程模型](http://www.uml.org.cn/zjjs/201711241.asp)
+
 [brpc](https://github.com/apache/incubator-brpc/blob/master/README_cn.md)
+
 [http2.0学习](https://www.jianshu.com/p/67c541a421f9)
+
 [学习汇总](https://github.com/xingshaocheng/architect-awesome)
+
 [java api online](https://docs.oracle.com/javase/8/docs/api/)
 
 ## 相关知识
