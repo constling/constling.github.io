@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "最新学习"
+date:   2019-08-03 22:00:00
+categories: 面试
+---
+
+ ## 链接地址
+[BeanFactory与Application区别](https://www.cnblogs.com/xiaoxi/p/5846416.html)
+
+ ## 知识汇总
+ 
+
+ **beanfactory**
+
+* BeanFactory：是IOC容器的核心接口， 它定义了IOC的基本功能，我们看到它主要定义了getBean方法。getBean方法是IOC容器获取bean对象和引发依赖注入的起点。方法的功能是返回特定的名称的Bean。
+* BeanFactory 是初始化 Bean 和调用它们生命周期方法的“吃苦耐劳者”。注意，BeanFactory 只能管理单例（Singleton）Bean 的生命周期。它不能管理原型(prototype,非单例)Bean 的生命周期。这是因为原型 Bean 实例被创建之后便被传给了客户端,容器失去了对它们的引用。
+
+**ApplicationContext**
+
+* BeanFactorty接口提供了配置框架及基本功能，但是无法支持spring的aop功能和web应用。而ApplicationContext接口作为BeanFactory的派生，因而提供BeanFactory所有的功能。而且ApplicationContext还在功能上做了扩展，相较于BeanFactorty，ApplicationContext还提供了以下的功能： 
+
+    * MessageSource, 提供国际化的消息访问  
+    * 资源访问，如URL和文件  
+    * 事件传播特性，即支持aop特性
+    * 载入多个（有继承关系）上下文 ，使得每一个上下文都专注于一个特定的层次，比如应用的web层 
+
+ApplicationContext：是IOC容器另一个重要接口， 它继承了BeanFactory的基本功能， 同时也继承了容器的高级功能，如：MessageSource（国际化资源接口）、ResourceLoader（资源加载接口）、ApplicationEventPublisher（应用事件发布接口）等。
+
+**事务的隔离级别**
+
+* 读未提交：事务可以读取另一个未提交事务的数据。
+* 读提交：事务要等另一个事务提交后才能读取数据。
+* 重复读：开始读取数据时，不再允许修改操作。
+* 序列化：事务串行化顺序执行，可以避免脏读、不可重复读与幻读。但是这种事务隔离级别效率低下，比较耗数据库性能，一般不使用。
+
+**mvcc**
+
+乐观锁的一种实现机制，实现多版本控制。
+
+优势：读不加锁，读写不冲突。在读多写少的OLTP应用中，读写不冲突是非常重要的，极大的增加了系统的并发性能。
+
+基本特征
+
+* 每行数据都存在一个版本，每次数据更新时都更新该版本。
+* 修改时Copy出当前版本随意修改，各个事务之间无干扰。
+* 保存时比较版本号，如果成功（commit），则覆盖原记录；失败则放弃copy（rollback）
+
+**公平锁&非公平锁**
+
+公平锁：加锁前先查看是否有排队等待的线程，有的话优先处理排在前面的线程，先来先得。
+非公平所：线程加锁时直接尝试获取锁，获取不到就自动到队尾等待。
+
+**布隆过滤器**
+**KMP 算法**
+深度优先、广度优先
+贪心算法
+回溯算法
+剪枝算法
+动态规划
+朴素贝叶斯
+推荐算法
+最小生成树算法
+最短路径算法
