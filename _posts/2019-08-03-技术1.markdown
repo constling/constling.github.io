@@ -98,8 +98,7 @@ java里面最常见的锁，ReentrantLock和synchronized都是可重入锁
 
 [链接] (https://blog.csdn.net/hd12370/article/details/82814348)
 
-**高可用设计**
+## 高可用系统
 
-* 内存缓存。
-* 读写分离。
-* 主从模式。
+
+[链接](https://blog.csdn.net/hustspy1990/article/details/78008324)
