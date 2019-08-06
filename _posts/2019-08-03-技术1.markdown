@@ -8,6 +8,8 @@ categories: 面试
  ## 链接地址
 [BeanFactory与Application区别](https://www.cnblogs.com/xiaoxi/p/5846416.html)
 
+[google java变成规范](https://www.cnblogs.com/lanxuezaipiao/p/3534447.html)
+
  ## 知识汇总
  
 
@@ -98,13 +100,21 @@ java里面最常见的锁，ReentrantLock和synchronized都是可重入锁
 
 [链接] (https://blog.csdn.net/hd12370/article/details/82814348)
 
-## 高可用系统
+## 高可用系统**
 
 1. [关于高可用系统的一些技术方案](https://blog.csdn.net/hustspy1990/article/details/78008324)
 
-2. [高并发、高可用系统设计原则](https://www.cnblogs.com/rwxwsblog/p/6652872.html)
+2. [高并发、高可用系统设计原则](https://www.cnblogs.com/rwxwsblog/p/
+6652872.html)
+
+**docker**
+
+docker是一个开源的软件部署解决方案；
+docker也是轻量级的应用容器框架；
+docker可以打包、发布、运行任何的应用。
 
 面试心得：
 
 1. 所有问题思考3秒。
 2. 扩展一下问题。
+
