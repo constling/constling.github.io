@@ -73,3 +73,113 @@ categories: 面试
 **Redis持久化有哪些方式**
 
 **Nignx与Apache的原理及不同**
+
+## 链接
+[面试题目](https://blog.csdn.net/zl1zl2zl3/article/details/81865407)
+[面试题目2](https://www.jb51.net/it/670536.html)
+[spring boot](https://github.com/bsdfzzzy/awesome-spring)
+
+## Spring是什么
+Spring是java软件的一个架构框架，包括ioc、aop、dao、orm、mvc、JEE。
+
+## Spring的主要内容
+
+**IOC**
+
+IOC：提供Spring 对象的基本容器。核心内容就是依赖注入。
+实现原理：底层和上层都依赖于抽象。
+
+**aop**
+
+aop：面向切面的编程。提供不影响业务逻辑的情况下，织入代码。
+实现原理：通过对象代理，在调用的前后等位置调用监控代码。
+
+**dao & jdbc模块**
+
+dao：Spring的JDBC和DAO模块抽取了这些重复代码，
+
+通过使用JDBC抽象和DAO模块，保证数据库代码的简洁，
+并能避免数据库资源错误关闭导致的问题，
+它在各种不同的数据库的错误信息之上，提供了一个统一的异常访问层。
+它还利用Spring的AOP 模块给Spring应用中的对象提供事务管理服务。
+
+
+**ORM**
+
+Spring 通过提供ORM模块，支持我们在直接JDBC之上使用一个对象/关系映射映射(ORM)工具，
+Spring 支持集成主流的ORM框 架，如Hiberate,JDO和 iBATIS SQL Maps。Spring的事务管理同样支持以上所有ORM框架及JDBC。
+
+## Spring功能机制
+
+**Spring mvc 原理 **
+
+对象包括：dispatcherservlet、controller、modelAndView、ViewResolver
+
+## Spring的功能理解
+
+** 自动装配 **
+
+* none、byname、bytype
+* 构造方法自动装配
+* 自动检测自动装配
+* 使用@autowired
+* 使用@qualifier
+
+** Spring bean的作用域 **
+* 单例
+* 原型
+* 请求
+* 会话
+* 全局会话
+
+** Spring el **
+
+** Spring aop 通知实例 **
+
+* 调用前
+* 调用后
+* 抛出异常前
+* 环绕通知
+
+** Spring AspectJ的注解 **
+
+* @Beforee
+* @After
+* @AfterReturning
+* @AfterThrowing
+* @Around
+
+**jdbctemplate**
+
+JdbcTemplate 类执行 SQL 查询、更新语句和存储过程调用，执行迭代结果集和提取返回参数值。
+
+**Bean 工厂和 Application contexts  有什么区别**
+
+Application contexts提供一种方法处理文本消息，一个通常的做法是加载文件资源（比如镜像），
+它们可以向注册为监听器的 bean发布事件。
+另外，在容器或容器内的对象上执行的那些不得不由bean工厂以程序化方式处理的操作，
+可以在 Application contexts中以声明的方式处理。Application contexts实现了MessageSource接口
+，该接口 的实现以可插拔的方式提供获取本地化消息的方法。
+
+** 一个Spring的应用看起来象什么**
+
+* 一个定义了一些功能的接口。
+* 这实现包括属性，它的Setter ， getter 方法和函数等。
+* Spring AOP。
+* Spring 的XML 配置文件。
+* 使用以上功能的客户端程序。
+
+**依赖选择**
+
+最好的解决方案是用构造器参数实现强制依赖，setter方法实现可选依赖
+
+**解释Spring框架中bean的生命周期**
+
+* Spring容器 从XML 文件中读取bean的定义，并实例化bean。
+* Spring根据bean的定义填充所有的属性。
+* 如果bean实现了BeanNameAware 接口，Spring 传递bean 的ID 到 setBeanName方法。
+* 如果Bean 实现了 BeanFactoryAware 接口， Spring传递beanfactory 给setBeanFactory 方法。
+* 如果有任何与bean相关联的BeanPostProcessors，Spring会在postProcesserBeforeInitialization()方法内调用它们。
+* 如果bean实现IntializingBean了，调用它的afterPropertySet方法，如果bean声明了初始化方法，调用此初始化方法。
+* 如果有BeanPostProcessors 和bean 关联，这些bean的postProcessAfterInitialization() 方法将被调用。
+* 如果bean实现了 DisposableBean，它将调用destroy()方法。
