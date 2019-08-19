@@ -63,7 +63,7 @@ DNS负载均衡，HTTP负载均衡，IP负载均衡，反向代理负载均衡�
 
 算法
 
-轮询、 随机、最少链接、Hash（源地址散列）、加权
+轮询、随机、最少链接、Hash（源地址散列）、加权
 
 正向代理与反向代理
 
@@ -130,7 +130,7 @@ DNS负载均衡，HTTP负载均衡，IP负载均衡，反向代理负载均衡�
 
 **分布是一致性问题(cap)**
 
-[学习链接](https://www.cnblogs.com/jasonboren/p/10660937.html)
+[学习链接](https://www.cnblogs.com/kerwing/p/9098893.html)
 
 **并发控制问题**
 

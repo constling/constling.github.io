@@ -176,6 +176,8 @@ Application contexts提供一种方法处理文本消息，一个通常的做法
 
 **解释Spring框架中bean的生命周期**
 
+[学习链接](https://www.cnblogs.com/jasonboren/p/10660937.html)
+
 * Spring容器 从XML 文件中读取bean的定义，并实例化bean。
 * Spring根据bean的定义填充所有的属性。
 * 如果bean实现了BeanNameAware 接口，Spring 传递bean 的ID 到 setBeanName方法。
