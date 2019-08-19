@@ -9,6 +9,7 @@ categories: 面试
 * [使用教程](https://www.yiibai.com/spring/spring-tutorial-for-beginners.html)
 * [Maven链接](https://www.yiibai.com/maven/)
 * [Spring](https://www.w3cschool.cn/wkspring/pesy1icl.html)
+* [spring的面试题目](https://blog.csdn.net/hrbeuwhw/article/details/79476988)
 
 ## Spring基础知识
 
@@ -183,3 +184,7 @@ Application contexts提供一种方法处理文本消息，一个通常的做法
 * 如果bean实现IntializingBean了，调用它的afterPropertySet方法，如果bean声明了初始化方法，调用此初始化方法。
 * 如果有BeanPostProcessors 和bean 关联，这些bean的postProcessAfterInitialization() 方法将被调用。
 * 如果bean实现了 DisposableBean，它将调用destroy()方法。
+
+**Spring统一异常处理**
+
+把异常统一汇总处理。配置处理类、处理异常的函数。

@@ -14,13 +14,7 @@ Spring Boot 是 Spring 开源组织下的子项目，是 Spring 组件一站式�
 
 [面试题目](https://blog.csdn.net/zl1zl2zl3/article/details/83715633)
 
-[spring的面试题目](https://blog.csdn.net/hrbeuwhw/article/details/79476988)
-
 [学习地址](https://blog.csdn.net/ityouknow/article/details/80490926)
-
-[JAVA面试题](https://blog.csdn.net/u010105645/article/details/82052505)
-
-[Spring事务管理](https://www.yiibai.com/spring/spring_transaction_management.html)
 
 [aop拦截原理](https://www.cnblogs.com/itlove/p/3644824.html)
 
@@ -121,18 +115,6 @@ JDBC提供了数据库访问的api，提供多种数据库访问的统一访问�
 * 你怎样定义类的作用域?
 
 当定义一个<bean> 在Spring里，我们还能给这个bean声明一个作用域。它可以通过bean 定义中的scope属性来定义。如，当Spring要在需要的时候每次生产一个新的bean实例，bean的scope属性被指定为prototype。另一方面，一个bean每次使用的时候必须返回同一个实例，这个bean的scope 属性 必须设为 singleton。
-
-**解释Spring支持的几种bean的作用域**
-
-* singleton : bean在每个Spring ioc 容器中只有一个实例。
-* prototype：一个bean的定义可以有多个实例。
-* request：每次http请求都会创建一个bean，该作用域仅在基于web的Spring ApplicationContext情形下有效。
-* session：在一个HTTP Session中，一个bean定义对应一个实例。该作用域仅在基于web的Spring ApplicationContext情形下有效。
-* global-session：在一个全局的HTTP Session中，一个bean定义对应一个实例。该作用域仅在基于web的Spring ApplicationContext情形下有效。
-* 缺省的Spring bean 的作用域是Singleton.
-
-**Spring框架中的单例bean不是线程安全的**
-
 
 **spring bean的完整生命周期**
 

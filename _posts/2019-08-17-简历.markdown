@@ -124,6 +124,19 @@ DNS负载均衡，HTTP负载均衡，IP负载均衡，反向代理负载均衡�
 
 [实现原理](https://blog.csdn.net/jkqwd1222/article/details/82194305)
 
+**动态限流**
+
+[学习链接](https://mp.weixin.qq.com/s?__biz=MzA3NDcyMTQyNQ==&mid=2649259178&idx=1&sn=59a969cc39699aa02ec6c49d9255835d&chksm=8767ad54b01024426dc6bb257992c1dfc08b9a8c4126d2422396402a2dd59c034eee8cc305e3&mpshare=1&scene=1&srcid=0104zNPpaQ84ZHumaMcHa8at#rd)
+
+**分布是一致性问题(cap)**
+
+[学习链接](https://www.cnblogs.com/jasonboren/p/10660937.html)
+
+**并发控制问题**
+
+[学习链接](https://blog.csdn.net/qq_28328381/article/details/82787709)
+[学习链接2](https://www.cnblogs.com/paul8339/p/7737012.html)
+
 ## ORM
 
 对象-关系映射(ORM)系统一般以中间件的形式存在，主要实现程序对象到关系数据库数据的映射。
@@ -133,7 +146,10 @@ DNS负载均衡，HTTP负载均衡，IP负载均衡，反向代理负载均衡�
 ## 高可用系统
 
 [学习链接1](https://blog.csdn.net/hustspy1990/article/details/78008324)
-[学习链接2](https://www.cnblogs.com/rwxwsblog/p/6652872.html)
+
+* 是什么。
+
+* [设计建议](https://www.cnblogs.com/rwxwsblog/p/6652872.html)
 
 ## 双11准备
 
@@ -141,4 +157,6 @@ DNS负载均衡，HTTP负载均衡，IP负载均衡，反向代理负载均衡�
 * 流量评估。
 * 降级策略。
 * 扩容。
-* 
+* 数据监控报警。
+* 流量控制。
+* 热点缓存。

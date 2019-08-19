@@ -6,8 +6,10 @@ categories: 面试
 ---
 
 ## 更多学习链接
-[面试题目](https://www.cnblogs.com/jiaqingshareing/p/7598593.html)
-[阿里中间件](http://mw.alibaba-inc.com/?spm=a1z2e.8101737.links.link-1.16aa4f9bKPRD7M)
+
+* [面试题目](https://www.cnblogs.com/jiaqingshareing/p/7598593.html)
+* [阿里中间件](http://mw.alibaba-inc.com/?spm=a1z2e.8101737.links.link-1.16aa4f9bKPRD7M)
+* [JAVA面试题](https://blog.csdn.net/u010105645/article/details/82052505)
 
 ## java简介
 
