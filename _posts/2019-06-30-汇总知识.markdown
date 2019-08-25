@@ -6,24 +6,8 @@ categories: 面试
 ---
 
 ## 学习列表
-* 大数据分析
-* spring
-* 缓存中间件
-* rpc中间件
-* 消息
-* 存储
-* 数据库
-* 多线程。
 * [服务端架构](https://blog.csdn.net/xyphf/article/details/81151486)
 
-
-## 数据库
-**事务正确执行的四个基本要素:ACID**
-
-* 原子性（Atomicity）: 事务的操作一起完成、一起失败。
-* 一致性（Consistency）：事务必须始终保持系统处于一致的状态，不管在任何给定的时间并发事务有多少。
-* 隔离性（Isolation）：如果有两个事务，运行在相同的时间内，执行相同的功能，事务的隔离性将确保每一事务在系统中认为只有该事务在使用系统。
-* 持久性（Durability）：在事务完成以后，该事务对数据库所作的更改便持久的保存在数据库之中，并不会被回滚。
 
 ## 其它
 **BS&CS的联系和区别**
@@ -66,8 +50,6 @@ CS系统升级难。BS由构件组成，升级容易。
 * GET比POST更不安全，因为参数直接暴露在URL上，所以不能用来传递敏感信息。
 * GET参数通过URL传递，POST放在Request body中。
 
-**WEB容器**
-提供服务的web程序。常见web容器：webSphere、tomcat、weblogic。
 
 **Servlet**
 
@@ -81,7 +63,10 @@ Java Server Pages，一种动态网页技术标准。JSP与Servlet一样，是�
 
 **AQS**
 
+[学习链接](https://www.jianshu.com/p/da9d051dcc3d)
+
 AQS定义了一套多线程访问共享资源的同步器框架。
+
 
 **https如何防止劫持**
 
@@ -103,15 +88,12 @@ AQS定义了一套多线程访问共享资源的同步器框架。
 
 [5个同步问题](https://blog.csdn.net/naruto_ahu/article/details/8672376)
 
-**多线程同步问题思考**
-
-* 明确竞争的具体是什么东西。
-* 有哪些竞争者。
-* 如何防出错。
 
 ## 待学习
 [链接1](https://www.cnblogs.com/nliao/p/3307648.html)
 
 ## 开放问题
 **如何设计电商秒杀系统**
+
+
 **如何进web优化**

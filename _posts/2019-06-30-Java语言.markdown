@@ -62,11 +62,39 @@ Java ME包括灵活的用户界面、健壮的安全模型、许多内置的网�
 	* 当Map中元素总数超过Entry数组的75%，触发扩容操作，为了减少链表长度，元素分配更均匀
 	* 计算index方法：index = hash & (tab.length – 1)
 
+* TreeMap：可自定义排序
+
 * LinkedHashMap:在hashmap的基础上增加链表，记录map的访问顺序，可以是插入顺序。
+
+* ConcurrentHashMap：线程安全的HashMap。
+
+
+**ConcurrentHashMap的线程安全实现**
+
+* JDK 1.8 前分段锁
+* JDK 1.8 后行级锁+AQS
+
+**HashMap扩容的流程**
+
+**TreeMap实现原理**
+
+**List & Set**
 
 ## java面试题目
 **java内存模型**
-java运行时数据分为六种：
+
+**java的线程池**
+
+[学习链接](https://blog.csdn.net/qq_33453910/article/details/81413285)
+
+* newCachedThreadPool创建一个可缓存线程池程
+* newFixedThreadPool 创建一个定长线程池
+* newScheduledThreadPool 创建一个定长线程池
+* newSingleThreadExecutor 创建一个单线程化的线程池
+
+
+**java运行时数据**
+
 * 程序计数器：线程独立，用于保存当前正常执行的程序的内存地址。
 * java虚拟机栈：线程私有的，与线程生命周期相同，用于存储局部变量表，操作栈，方法返回值。局部变量表放着基本数据类型，还有对象的引用。
 * 本地方法栈：跟虚拟机栈很像，不过它是为虚拟机使用到的Native方法服务。
