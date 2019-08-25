@@ -76,7 +76,35 @@ categories: 面试
  * 小程序开放。
 
 
- 
- 
+ ## 面经
+
+ [4年面试经历](https://blog.csdn.net/v123411739/article/details/99708892)
+
+ [java面试宝典](https://blog.csdn.net/u014745069/article/details/79822999)
+ [java面试上](https://blog.csdn.net/jackfrued/article/details/44921941)
+ [java面试中](https://blog.csdn.net/jackfrued/article/details/44931137)
+ [java面试下](https://blog.csdn.net/jackfrued/article/details/44931161)
+ [面经]
+http://m.nowcoder.com/discuss/3043
+
+https://yq.aliyun.com/articles/711229
+
+http://server.51cto.com/News-590519.htm
+
+https://m.imooc.com/article/21968
+
+https://craze-lee.github.io/2019/02/23/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%9D%A2/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%EF%BC%88%E6%B1%87%E6%80%BB%EF%BC%89/
+
+https://zhidao.baidu.com/question/2015956139345665788.html?ivk_sa=1022817r
+
+http://m.jinciwei.cn/d464918.html
+
+https://mp.weixin.qq.com/s?__biz=MzI1NDQ3MjQxNA==&mid=2247486452&idx=1&sn=927b7d8adcdbffd2228ffc22ee7ea841&chksm=e9c5f245deb27b53b1fb9f5e03199598ea83fc755f45af0fdd0b3339dd8dfa87d7d268c6489a&scene=21
 
 
+1. 基本框架熟悉、理解、使用。
+2. 对于重点问题思路清晰。
+3. 代码架构、设计模式。
+4. 基本算法。
+5. 学习、思考能力。
+6. 项目推动能力。

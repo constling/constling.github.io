@@ -5,6 +5,13 @@ date:   2019-06-30 22:24:00
 categories: 面试
 ---
 
+[带学习](http://m.blog.itpub.net/69917606/viewspace-2642545/g)
+[分布式架构演进](https://mp.weixin.qq.com/s?__biz=MzI1NDQ3MjQxNA==&mid=2247486427&idx=1&sn=231aa6c524f28eba5f7cfbcac9b18947&chksm=e9c5f26adeb27b7c15fbaf758cf0604c59cc903d31113e8b4ede54569c1143e2903ba8f5d530&scene=21#wechat_redirect)
+
+[redis](https://mp.weixin.qq.com/s?__biz=MzI1NDQ3MjQxNA==&mid=2247486458&idx=1&sn=ed405804654643799be4a6568aed4abf&chksm=e9c5f24bdeb27b5dc9593cea0a4079966c300acb95872ef5a8596dbd80924e4b55500168e9a5&scene=21)
+
+分布式相关问题
+
 ## redis
 
 **redis有哪些架构**
@@ -200,3 +207,16 @@ memcache是一套分布式的对象缓存系统，基于内存的key-value存储
 
 ## 待看
 * csc16
+
+**RPC的可靠性设计**
+
+[学习链接](https://www.infoq.cn/article/BZEKAR1WxqG-2DpARE9o)
+
+**分布式事务解决方案**
+
+[学习链接](https://blog.csdn.net/fst438060684/article/details/85013942)
+
+[base理论](https://www.cnblogs.com/stateis0/p/9062123.html)
+
+[TCC](https://blog.csdn.net/bntx2jsqfehy7/article/details/81058746)
+cap、base、paxos、raft

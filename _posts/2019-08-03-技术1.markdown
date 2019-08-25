@@ -118,3 +118,6 @@ docker可以打包、发布、运行任何的应用。
 1. 所有问题思考3秒。
 2. 扩展一下问题。
 
+**http协议**
+
+[学习链接](https://www.cnblogs.com/chenliyang/p/6558756.html)
