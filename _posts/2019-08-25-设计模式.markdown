@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "算法"
+title:  "设计模式"
 date:   2019-08-25 22:00:00
-categories: 设计模式
+categories: 面试
 ---
 
 [学习链接](http://c.biancheng.net/design_pattern/)
