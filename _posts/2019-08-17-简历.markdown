@@ -122,6 +122,9 @@ DNS负载均衡，HTTP负载均衡，IP负载均衡，反向代理负载均衡�
 
 **一致性hash**
 
+* 性质
+* 实现
+
 **RingBuffer**
 
 [实现原理](https://blog.csdn.net/jkqwd1222/article/details/82194305)
@@ -146,6 +149,14 @@ DNS负载均衡，HTTP负载均衡，IP负载均衡，反向代理负载均衡�
 典型：Hibernate。
 
 ## 高可用系统
+
+* 扩展性好：垂直扩展、水平扩展。
+* 监控告警。
+* 无状态。
+* 故障恢复。
+* 限流、熔断、降级。
+* 响应。
+* 数据一致性。
 
 [学习链接1](https://blog.csdn.net/hustspy1990/article/details/78008324)
 
