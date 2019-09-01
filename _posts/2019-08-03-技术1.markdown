@@ -6,8 +6,7 @@ categories: 面试
 ---
 
  ## 链接地址
-[BeanFactory与Application区别](https://www.cnblogs.com/xiaoxi/p/5846416.html)
-
+ 
 [google java变成规范](https://www.cnblogs.com/lanxuezaipiao/p/3534447.html)
 
  ## 知识汇总
