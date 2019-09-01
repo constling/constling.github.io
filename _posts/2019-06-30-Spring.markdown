@@ -112,37 +112,36 @@ Spring 支持集成主流的ORM框 架，如Hiberate,JDO和 iBATIS SQL Maps。Sp
 
 ## Spring功能机制
 
-**Spring mvc 原理 **
+**Spring mvc 原理**
 
 对象包括：dispatcherservlet、controller、modelAndView、ViewResolver
 
 ## Spring的功能理解
 
-** 自动装配 **
+**自动装配**
 
 * none、byname、bytype
 * 构造方法自动装配
-* 自动检测自动装配
 * 使用@autowired
+* 自动检测自动装配
 * 使用@qualifier
 
-** Spring bean的作用域 **
+**Spring bean的作用域**
+
 * 单例
 * 原型
 * 请求
 * 会话
 * 全局会话
 
-** Spring el **
-
-** Spring aop 通知实例 **
+**Spring aop通知实例**
 
 * 调用前
 * 调用后
 * 抛出异常前
 * 环绕通知
 
-** Spring AspectJ的注解 **
+**Spring AspectJ的注解**
 
 * @Beforee
 * @After
@@ -155,6 +154,8 @@ Spring 支持集成主流的ORM框 架，如Hiberate,JDO和 iBATIS SQL Maps。Sp
 JdbcTemplate 类执行 SQL 查询、更新语句和存储过程调用，执行迭代结果集和提取返回参数值。
 
 **Bean 工厂和 Application contexts  有什么区别**
+
+[学习链接](https://blog.csdn.net/java_yes/article/details/81672698)
 
 Application contexts提供一种方法处理文本消息，一个通常的做法是加载文件资源（比如镜像），
 它们可以向注册为监听器的 bean发布事件。
