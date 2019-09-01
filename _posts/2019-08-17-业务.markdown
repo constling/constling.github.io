@@ -11,7 +11,6 @@ categories: 面试
 [千牛应用平台](https://alimarket.taobao.com/markets/qnww/application-platform?spm=a219a.7386653.1.6.685e286cOFDsuF)
 
 
-
  ## 业务理解
  
  定位：
@@ -84,6 +83,7 @@ categories: 面试
  [java面试上](https://blog.csdn.net/jackfrued/article/details/44921941)
  [java面试中](https://blog.csdn.net/jackfrued/article/details/44931137)
  [java面试下](https://blog.csdn.net/jackfrued/article/details/44931161)
+
  [面经]
 http://m.nowcoder.com/discuss/3043
 
@@ -102,12 +102,6 @@ http://m.jinciwei.cn/d464918.html
 https://mp.weixin.qq.com/s?__biz=MzI1NDQ3MjQxNA==&mid=2247486452&idx=1&sn=927b7d8adcdbffd2228ffc22ee7ea841&chksm=e9c5f245deb27b53b1fb9f5e03199598ea83fc755f45af0fdd0b3339dd8dfa87d7d268c6489a&scene=21
 
 
-1. 基本框架熟悉、理解、使用。
-2. 对于重点问题思路清晰。
-3. 代码架构、设计模式。
-4. 基本算法。
-5. 学习、思考能力。
-6. 项目推动能力。
 
 ## 招聘要求
 
@@ -116,3 +110,33 @@ https://mp.weixin.qq.com/s?__biz=MzI1NDQ3MjQxNA==&mid=2247486452&idx=1&sn=927b7d
 3. 熟悉常见的一些解决方案及其原理：分布式缓存、SOA、消息中间件，负载均衡、连接池、数据库等；
 4. 有良好的软件工程知识和编码规范意识，精通web软件分层设计；
 5. 3年以上开发经验；技术视野开阔，学习能力好，对业界新技术敏感，喜欢钻研，具有良好的学习能力并注重团队合作
+
+## 自己的优势
+
+* 学习能力强
+* 在自己的岗位能有自己的见解和看法
+* 能在完成任务的基础上做的更好
+
+*  基本框架熟悉、理解、使用。
+*  对于重点问题思路清晰。
+*  代码架构、设计模式。
+*  基本算法。
+*  学习、思考能力。
+*  项目推动能力。
+
+## 职业规划
+
+* 升p7为目标来逼迫自己。
+* 技术深度
+* 业务深度
+
+## 平台与业务的理解
+
+* 平台可能只需要提供足够的开放能力，一定的流量入口，提供平台基础设施即可。
+    * 开发
+    * 运营
+    * 推广
+    * 售前
+    * 售后
+    
+* 业务需要更贴近用户的需求，更加站在用户的立场看待问题。
