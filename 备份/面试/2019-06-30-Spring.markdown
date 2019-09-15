@@ -1,0 +1,193 @@
+---
+layout: post
+title:  "Spring"
+date:   2019-06-30 22:00:00
+categories: 面试
+---
+
+## 学习链接
+* [使用教程](https://www.yiibai.com/spring/spring-tutorial-for-beginners.html)
+* [Maven链接](https://www.yiibai.com/maven/)
+* [Spring](https://www.w3cschool.cn/wkspring/pesy1icl.html)
+* [spring的面试题目](https://blog.csdn.net/hrbeuwhw/article/details/79476988)
+
+## Spring基础知识
+
+**基本概念**
+
+* 依赖倒置：上层模块不应该依赖于下层模块，它们共同依赖于一个抽象。抽象不能依赖于具象，具象依赖于抽象。
+
+* 控制反转：
+模块与模块之间通过抽象来建立连接。具体使用的模块，交由配置文件来控制，实现控制转移。
+控制反转IoC，是说对象的控制权进行转移，转移到第三方。比如转移交给了IoC容器，它就是一个创建工厂，你要什么对象，它就给你什么对象，有了IoC容器，依赖关系就变了，原先的依赖关系就没了，它们都依赖IoC容器了，通过IoC容器来建立它们之间的关系。
+[链接](https://www.cnblogs.com/Mr-Rocker/p/7721824.html)
+
+* 面向切面
+[链接](https://www.cnblogs.com/Wolfmanlq/p/6036019.html)
+
+## Spring题目
+
+**Spring的优势**
+
+* Spring轻量，大约2mb。
+* 提供IOC的控制反转，解少模块间的依赖。
+* 提供AOP面向切面的框架，将应用业务与系统业务分开。
+* 提供容器，实现对象的生命周期管理。
+* MVC框架：Spring的WEB框架是个精心设计的框架，是Web框架的一个很好的替代品。
+* 事务管理：Spring 提供一个持续的事务管理接口，可以扩展到上至本地事务下至全局事务（JTA）。
+* 异常处理：Spring 提供方便的API把具体技术相关的异常（比如由JDBC，Hibernate or JDO抛出的）转化为一致的unchecked 异常。
+
+**IOC控制反转实现方式**
+
+控制反转（Inversion of Control，缩写为IoC）,包含依赖注入和依赖查找。
+
+* 依赖查找：容器提供回调接口和上下文条件给组件。组件就必须使用容器提供的API来查找资源和协作对象，仅有的控制反转只体现在那些回调方法上（也就是上面所说的 类型1）：容器将调用这些回调方法，从而让应用代码获得相关资源。
+* 依赖注入：组件不做定位查询，只提供普通的Java方法让容器去决定依赖关系。容器全权负责的组件的装配，它会把符合依赖关系的对象通过JavaBean属性或者构造函数传递给需要的对象。通过JavaBean属性注射依赖关系的做法称为设值方法注入(Setter Injection)；将依赖关系作为构造函数参数传入的做法称为构造器注入（Constructor Injection）
+
+**AOP**
+
+面向切面编程，通过预编译方式和运行期动态代理实现程序功能的统一维护的一种技术。
+个人理解就是提供了一些扩展点，以某种机制注入进去使用。
+
+[aop的实现方式](https://www.cnblogs.com/xiaoxi/p/5981514.html)
+
+**context对于bean的好处**
+
+* bean关注的是一个对象的抽象化。比如使用数据库的属性、名称等。
+* context将无关的内容配置化，编程只用关注接口内容。比如：数据库访问，不用关心数据库的名称、方式。只用使用数据库的读写、存储等。
+
+**JdbcTemplate的优点**
+
+* 配置基于模板设置
+* 完成了资源的创建和释放的工作
+* 完成了对JDBC的核心流程的工作，包括SQL语句的创建和执行，简化了对JDBC的操作
+* 仅需要传递DataSource就可以把它实例化
+* JdbcTemplate只需要创建一次，减少了代码复用的烦恼
+* JdbcTemplate是线程安全类
+
+**Java持久化**
+
+[待学习链接](https://blog.csdn.net/qq_39470733/article/details/80166949)
+
+**myBatis与Hibernate相比主要优势**
+
+**Redis持久化有哪些方式**
+
+**Nignx与Apache的原理及不同**
+
+## 链接
+[面试题目](https://blog.csdn.net/zl1zl2zl3/article/details/81865407)
+[面试题目2](https://www.jb51.net/it/670536.html)
+[spring boot](https://github.com/bsdfzzzy/awesome-spring)
+
+## Spring是什么
+Spring是java软件的一个架构框架，包括ioc、aop、dao、orm、mvc、JEE。
+
+## Spring的主要内容
+
+**IOC**
+
+IOC：提供Spring 对象的基本容器。核心内容就是依赖注入。
+实现原理：底层和上层都依赖于抽象。
+
+**aop**
+
+aop：面向切面的编程。提供不影响业务逻辑的情况下，织入代码。
+实现原理：通过对象代理，在调用的前后等位置调用监控代码。
+
+**dao & jdbc模块**
+
+dao：Spring的JDBC和DAO模块抽取了这些重复代码，
+
+通过使用JDBC抽象和DAO模块，保证数据库代码的简洁，
+并能避免数据库资源错误关闭导致的问题，
+它在各种不同的数据库的错误信息之上，提供了一个统一的异常访问层。
+它还利用Spring的AOP 模块给Spring应用中的对象提供事务管理服务。
+
+
+**ORM**
+
+Spring 通过提供ORM模块，支持我们在直接JDBC之上使用一个对象/关系映射映射(ORM)工具，
+Spring 支持集成主流的ORM框 架，如Hiberate,JDO和 iBATIS SQL Maps。Spring的事务管理同样支持以上所有ORM框架及JDBC。
+
+## Spring功能机制
+
+**Spring mvc 原理**
+
+对象包括：dispatcherservlet、controller、modelAndView、ViewResolver
+
+## Spring的功能理解
+
+**自动装配**
+
+* none、byname、bytype
+* 构造方法自动装配
+* 使用@autowired
+* 自动检测自动装配
+* 使用@qualifier
+
+**Spring bean的作用域**
+
+* 单例
+* 原型
+* 请求
+* 会话
+* 全局会话
+
+**Spring aop通知实例**
+
+* 调用前
+* 调用后
+* 抛出异常前
+* 环绕通知
+
+**Spring AspectJ的注解**
+
+* @Beforee
+* @After
+* @AfterReturning
+* @AfterThrowing
+* @Around
+
+**jdbctemplate**
+
+JdbcTemplate 类执行 SQL 查询、更新语句和存储过程调用，执行迭代结果集和提取返回参数值。
+
+**Bean 工厂和 Application contexts  有什么区别**
+
+[学习链接](https://blog.csdn.net/java_yes/article/details/81672698)
+
+Application contexts提供一种方法处理文本消息，一个通常的做法是加载文件资源（比如镜像），
+它们可以向注册为监听器的 bean发布事件。
+另外，在容器或容器内的对象上执行的那些不得不由bean工厂以程序化方式处理的操作，
+可以在 Application contexts中以声明的方式处理。Application contexts实现了MessageSource接口
+，该接口 的实现以可插拔的方式提供获取本地化消息的方法。
+
+** 一个Spring的应用看起来象什么**
+
+* 一个定义了一些功能的接口。
+* 这实现包括属性，它的Setter ， getter 方法和函数等。
+* Spring AOP。
+* Spring 的XML 配置文件。
+* 使用以上功能的客户端程序。
+
+**依赖选择**
+
+最好的解决方案是用构造器参数实现强制依赖，setter方法实现可选依赖
+
+**解释Spring框架中bean的生命周期**
+
+[学习链接](https://www.cnblogs.com/jasonboren/p/10660937.html)
+
+* Spring容器 从XML 文件中读取bean的定义，并实例化bean。
+* Spring根据bean的定义填充所有的属性。
+* 如果bean实现了BeanNameAware 接口，Spring 传递bean 的ID 到 setBeanName方法。
+* 如果Bean 实现了 BeanFactoryAware 接口， Spring传递beanfactory 给setBeanFactory 方法。
+* 如果有任何与bean相关联的BeanPostProcessors，Spring会在postProcesserBeforeInitialization()方法内调用它们。
+* 如果bean实现IntializingBean了，调用它的afterPropertySet方法，如果bean声明了初始化方法，调用此初始化方法。
+* 如果有BeanPostProcessors 和bean 关联，这些bean的postProcessAfterInitialization() 方法将被调用。
+* 如果bean实现了 DisposableBean，它将调用destroy()方法。
+
+**Spring统一异常处理**
+
+把异常统一汇总处理。配置处理类、处理异常的函数。
