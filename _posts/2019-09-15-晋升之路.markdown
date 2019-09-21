@@ -1,0 +1,63 @@
+---
+layout: post
+title:  "晋升之路"
+date:   2019-09-15 22:05:00
+categories: 其它
+
+## 学习链接
+
+* https://blog.csdn.net/love20165104027/article/details/81271556
+
+## 学习列表
+
+[参考](https://www.cnblogs.com/Shunia123/p/10572607.html)
+
+* IDE
+    * [IntelliJ](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
+* 如何查库、如何查源码
+* 开源代码实践
+* sql数据库
+* 后端的设计思路
+* jar项目
+* jdk是什么
+* sql数据库
+* 单元测试
+
+## 进阶学习
+
+* 架构
+
+
+## 领域创新
+
+* 机器学习
+* 视觉
+
+## 前端技术
+
+## 业务理解
+
+* 业务理解：营销
+* 压缩的前端引擎
+* 云栖
+
+## 保持技术方向
+
+* github
+
+## 算法
+
+## 书籍阅读
+
+* java高并发程序设计
+* 数据思维
+* Test Driven（测试驱动）
+* 尽在双11：阿里巴巴技术演进与超越
+* 分布式服务框架原理与实践
+* Apache kafka实战
+* Redius 设计与实践
+* 分布式Java应用基础与实践
+
+## 思路
+
+* 可以不细节学习，但是要理解。

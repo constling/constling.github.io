@@ -7,8 +7,6 @@ categories: update
 
 **信息浏览**
 
-* [**qn**](http://download.taobaocdn.com/wangwang/qianniu_(7.03.21N).exe)
-
 * [**infoQ**](http://www.infoq.com/cn/)
 * [**简书**](https://www.jianshu.com/)
 * [**ARChina**](http://www.arinchina.com/)
