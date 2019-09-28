@@ -11,3 +11,19 @@ categories: 其它
 * java命令行
 * 项目配置
 
+
+
+## 快捷键
+
+ctrl+o：创建方法
+
+
+## 常用配置
+
+* 配置pom更改，自动更新
+* alt+insert 成员函数方法自动生成
+* pom alt+insert
+* alt+enter：导入import
+
+## 待处理
+* https://www.cnblogs.com/cavinchen/p/9846427.html
