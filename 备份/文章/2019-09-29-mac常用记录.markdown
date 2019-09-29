@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Mac常用记录"
+date:   2019-09-29 22:45:00
+categories: 其它
+---
+
+## 常用软件
+* quiver
+* macdown
+* charles
+* sketch
+* gliffy
+* omnigraffy
+* sourcetree
+* sqlitestudio
+* camtasia
