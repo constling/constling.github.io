@@ -24,6 +24,7 @@ ctrl+o：创建方法
 * alt+insert 成员函数方法自动生成
 * pom alt+insert
 * alt+enter：导入import
+* ctrl+空格：自动补全
 
 ## 待处理
 * https://www.cnblogs.com/cavinchen/p/9846427.html

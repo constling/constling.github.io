@@ -42,6 +42,7 @@ categories: update
 * [**极客学院**](http://wiki.jikexueyuan.com/project/cplusplus/overview.html)
 * [**代码**](https://leetcode.com/)
 * [**可看看**](https://github.com/code4everything/awesome-list)
+* [**cnbeta**](https://www.cnbeta.com/)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
