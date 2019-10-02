@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "SpringMvc"
+date:   2019-10-02 22:05:00
+categories: 其它
+
+## 学习链接
+
+* [菜鸟教程](https://www.runoob.com/mysql/mysql-administration.html)
+
+## Mysql
+
+* 登录mysql：mysql -u root -p
+* 查询用户：select host,user,authentication_string from mysql.user;
+* update mysql.user set authentication_string="123456" where user="root";
+* 退出：quit

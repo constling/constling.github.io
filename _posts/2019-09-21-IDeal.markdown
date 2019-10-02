@@ -25,6 +25,32 @@ ctrl+o：创建方法
 * pom alt+insert
 * alt+enter：导入import
 * ctrl+空格：自动补全
+* ctrl+alt+L: 格式化
+* alt + <- & ->:前进 & 后退
+* ctrl+alt+b：跳到方法实现
 
-## 待处理
-* https://www.cnblogs.com/cavinchen/p/9846427.html
+## maven
+
+**远端配置地址**
+
+<code>
+    <mirror>
+        <id>repo2</id>
+        <name>Mirror from Maven Repo2</name>
+        <url>http://repo2.maven.org/maven2/</url>
+        <mirrorOf>central</mirrorOf>
+        </mirror>
+    <mirror>
+        <id>jboss-public-repository-group</id>
+        <mirrorOf>central</mirrorOf>
+        <name>JBoss Public Repository Group</name>
+        <url>http://repository.jboss.org/nexus/content/groups/public</url>
+    </mirror>
+</code>
+
+## 思考问题，如果我要搞spring mvc，怎么获取文档
+
+* 查看源码。（从源码获取内容）
+* 搜索。（零散）
+* 官网文档。
+* 理解原理，从原理出发分析问题。
