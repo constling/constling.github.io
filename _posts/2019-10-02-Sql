@@ -7,10 +7,14 @@ categories: 其它
 ## 学习链接
 
 * [菜鸟教程](https://www.runoob.com/mysql/mysql-administration.html)
+* [命令](https://blog.csdn.net/jin13277480598/article/details/52504592)
 
 ## Mysql
 
+* mysqld --initialize-insecure --user=mysql
 * 登录mysql：mysql -u root -p
 * 查询用户：select host,user,authentication_string from mysql.user;
 * update mysql.user set authentication_string="123456" where user="root";
 * 退出：quit
+* 连接数据库：use xhkdb;
+* 查看当前使用的数据库:select database();
