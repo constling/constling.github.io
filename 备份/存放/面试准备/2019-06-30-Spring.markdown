@@ -6,9 +6,6 @@ categories: 面试
 ---
 
 ## 学习链接
-* [使用教程](https://www.yiibai.com/spring/spring-tutorial-for-beginners.html)
-* [Maven链接](https://www.yiibai.com/maven/)
-* [Spring](https://www.w3cschool.cn/wkspring/pesy1icl.html)
 * [spring的面试题目](https://blog.csdn.net/hrbeuwhw/article/details/79476988)
 
 ## Spring基础知识

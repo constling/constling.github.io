@@ -18,3 +18,15 @@ categories: 其它
 * 退出：quit
 * 连接数据库：use xhkdb;
 * 查看当前使用的数据库:select database();
+* 删除服务：sc delete mysql
+* mysqld --console --skip-grant-tables --shared-memory
+
+https://blog.csdn.net/sinat_34461975/article/details/86664760
+
+create table Student( id int(4) not null primary key auto_increment, name char(20) not null,sex int(4) )
+
+insert into Student values(1, "tom", 0)
+
+serverTimezone=GMT
+
+https://www.cnblogs.com/liaojie970/p/7639930.html

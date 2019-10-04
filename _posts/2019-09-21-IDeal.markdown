@@ -21,9 +21,9 @@ ctrl+o：创建方法
 ## 常用配置
 
 * 配置pom更改，自动更新
-* alt+insert 成员函数方法自动生成
-* pom alt+insert
-* alt+enter：导入import
+* alt+insert 成员函数方法自动生成 (生成函数位置)
+* pom alt+insert  
+* alt+enter：导入import，自动修复
 * ctrl+空格：自动补全
 * ctrl+alt+L: 格式化
 * alt + <- & ->:前进 & 后退

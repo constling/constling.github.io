@@ -4,6 +4,10 @@ title:  "sql"
 date:   2019-10-01 22:05:00
 categories: 其它
 
+## 待学习
+
+* [Spring](https://www.w3cschool.cn/wkspring/pesy1icl.html)
+
 ## 注解
 
 * @Controller：声明为一个bean
@@ -26,5 +30,3 @@ categories: 其它
 
 
 ## 待学习
-
-* https://www.cnblogs.com/alice-cj/p/10424049.html
