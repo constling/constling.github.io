@@ -5,9 +5,63 @@ date:   2019-09-15 22:05:00
 categories: 其它
 ---
 
+## 发展方向
+
+寻找岗位在技术与业务上面突破点，为之努力付出。
+
+* 技术实力
+    * 技术创新
+    * 技术优化
+* 业务视角
+    * 业务创新
+    * 
+* 把握各行业、各端的技术动向，用新技术赋能业务
+* 
+
+## 基础能力
+
+### 学习链接
+[CS-Notes](https://github.com/CyC2018/CS-Notes)
+
+### java基础
+### IDE
+### 算法
+### RPC
+
+* dubbo
+
+## 进阶能力
+## 突破能力
+
+## 任务
+
+* 理清行业技术分布
+* 理清业务技术布局
+
+## 技术深度
+
+* 高性能计算
+* 应用监控工具
+
+## 技术方向
+
+* 图形图像
+* 机器学习
+* 端智能
+* 小程序
+* 
+
+
 ## 学习链接
 
-* https://blog.csdn.net/love20165104027/article/details/81271556
+* [awesome-java](https://github.com/uhub/awesome-java)
+* [从0搭建博客](https://github.com/b3log/solo)
+* [awesome-java-cn](https://github.com/jobbole/awesome-java-cn)
+* [useful-java-links](https://github.com/Vedenin/useful-java-links)
+* [学习资源](https://github.com/CleverFan/awesome-java-datum)
+* [java安全](https://github.com/guardrailsio/awesome-java-security)
+* [java书](https://github.com/sorenduan/awesome-java-books)
+* [计算机书](https://github.com/yanbinghu/awesome-programming-books)
 
 ## 学习列表
 
@@ -25,11 +79,11 @@ categories: 其它
 * sql数据库
 * 单元测试
 * java容器学习
+* orm:
 
 ## 进阶学习
 
 * 架构
-
 
 ## 领域创新
 
@@ -38,12 +92,6 @@ categories: 其它
 * 人工智能
 
 ## 前端技术
-
-## 业务理解
-
-* 业务理解：营销
-* 压缩的前端引擎
-* 云栖
 
 ## 保持技术方向
 
@@ -61,9 +109,19 @@ categories: 其它
 * Apache kafka实战
 * Redius 设计与实践
 * 分布式Java应用基础与实践
+* java核心技术
+* java编程思想
 
 ## 思路
 
 * 可以不细节学习，但是要理解。
 
+## 源码学习
+
+* [电商系统](https://github.com/macrozheng/mall)
+* [论坛/BBS](https://github.com/b3log/symphony)
+
+## 待看看链接
+
+* https://github.com/doocs/advanced-java
 
