@@ -6,5 +6,49 @@ categories: 其它
 ---
 
 
-## 学习链接
+## 知识
 
+**代码块**
+
+```
+<% 代码片段 %>
+```
+
+**jsp声明**
+
+```
+<jsp:declaration>
+   代码片段
+</jsp:declaration>
+
+<%! 
+
+%>
+```
+
+**表达示**
+
+```
+<%= 表达式 %>
+
+<jsp:expression>
+   表达式
+</jsp:expression>
+
+```
+
+**JSP指令**
+
+```
+<%@ directive attribute="value" %>
+```
+
+**JSP行为**
+
+```
+<jsp:action_name attribute="value" />
+```
+
+**JSP隐藏对象**
+request、response、out、session、application、
+config、pageContext、page、Exception

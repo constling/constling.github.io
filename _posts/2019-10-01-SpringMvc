@@ -14,6 +14,8 @@ categories: 其它
 
 **注解**
 * @Controller：声明为一个bean
+* @Required 注释应用于 bean 属性的 setter 方法，它表明受影响的 bean 属性在配置时必须放在 XML 配置文件中，否则容器就会抛出一个 BeanInitializationException 异常。
+* @Autowired 注释可以在 setter 方法中被用于自动连接 bean，就像 @Autowired 注释，容器，一个属性或者任意命名的可能带有多个参数的方法。
 
 **<url-pattern>的匹配**
 * 完整路径匹配；
@@ -27,5 +29,8 @@ categories: 其它
 * “/”所有访问的地址都是由 DispatcherServlet进行解析，对于静态的文件解析需要配置,不让DispatcherServlet进行解析.
 * “/*”这样配置不对,使用这种配置,最终要转发到一个jsp页面时,仍然会由DispatcherServlet进行解析,但是不能根据这个jsp页面找到handler所以会报错。 
 
+* 
 
 ## 待学习
+
+* scope范围与析构时机

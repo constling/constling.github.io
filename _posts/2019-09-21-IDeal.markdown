@@ -29,12 +29,13 @@ ctrl+o：创建方法
 * ctrl+alt+L: 格式化
 * alt + <- & ->:前进 & 后退
 * ctrl+alt+b：跳到方法实现
+* ctrl+f12：查看一个类的所有方法
 
 ## maven
 
 **远端配置地址**
 
-<code>
+```
     <mirror>
         <id>repo2</id>
         <name>Mirror from Maven Repo2</name>
@@ -47,7 +48,7 @@ ctrl+o：创建方法
         <name>JBoss Public Repository Group</name>
         <url>http://repository.jboss.org/nexus/content/groups/public</url>
     </mirror>
-</code>
+```
 
 ## 思考问题，如果我要搞spring mvc，怎么获取文档
 
