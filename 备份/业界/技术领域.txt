@@ -1,3 +1,21 @@
 ## 人工智能
 * 神经网络
+    * 
 * 数据挖掘
+    * 
+
+DeepMask
+SharpMask
+
+
+
+tensorflow2.0学习地址
+http://c.biancheng.net/view/1882.html
+https://www.tensorflow.org/api_docs/python/tf/constant
+https://zhuanlan.zhihu.com/p/27018536
+https://docs.google.com/spreadsheets/d/1FLFJLzg7WNP6JHODX5q8BDgptKafq_slHpnHVbJIteQ/edit#gid=0
+https://juejin.im/post/5b345a49f265da599c561b25
+https://zhuanlan.zhihu.com/c_145493078
+https://juejin.im/user/59dc2d2d518825579d12f448/posts
+vscode环境配置
+https://blog.csdn.net/grllery/article/details/78448007

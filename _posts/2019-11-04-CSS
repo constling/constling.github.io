@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "机器学习"
+date:   2019-11-04 10:23:00
+categories: 其它
+---
+
+
+## CSS布局
+
+* display:block、inline、none
+* display:flex
+* position:static、relative、fixed、absolute
+* margin:
+* padding:
+* box-sizing
+* 百分比宽高

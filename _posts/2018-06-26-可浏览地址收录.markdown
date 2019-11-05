@@ -46,15 +46,14 @@ categories: update
 * [**云栖大会**]
 * [**连接家庭网络**](http://www.360doc.com/content/18/0409/12/2406619_744141929.shtml)
 * [**人工智能学习大全**](https://www.easyaihub.com/)
+* [**天善智能**](https://www.hellobi.com/)
+* [**美团技术团队**](https://tech.meituan.com/)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
 * **深度学习论文推荐**
 	[https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap]	(https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
 
-
-* **javascript问题汇总**
-[https://github.com/simongong/js-stackoverflow-highest-votes](https://github.com/simongong/js-stackoverflow-highest-votes)
 
 
 * [优秀博文1](https://blog.ibireme.com/)
@@ -68,7 +67,7 @@ categories: update
 
 **前端技术**
 
-* 
+[javascript问题汇总](https://github.com/simongong/js-stackoverflow-highest-votes)
 
 **了解**
 
