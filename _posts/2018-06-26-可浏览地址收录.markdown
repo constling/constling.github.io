@@ -77,3 +77,9 @@ categories: update
 **ppt制作**
 
 * [focusk](focusky.com.cn)
+
+
+**其它**
+
+* [nginx配置https](https://juejin.im/post/5bfe6f21e51d456c057fed79)
+* [flutter学习](https://live.aliway.com/roomWeb.html?spm=a1z2e.12184483.learn.dmediatitle1.e2664f9bfTY91g&id=21794&liveRef=learningRecommend)
