@@ -9,4 +9,5 @@ categories: 其它
 [python文档](https://docs.python.org/2.7/py-modindex.html)
 [python文档中文版](https://yiyibooks.cn/yy/python_278/py-modindex.html)
 [maven项目查找](https://search.maven.org/)
+[chrome代码查找](https://cs.chromium.org/)
 

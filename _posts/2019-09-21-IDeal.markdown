@@ -7,6 +7,8 @@ categories: 其它
 
 ## 学习链接
 
+* [click](https://raw.githubusercontent.com/constling/constling.github.io/master/biaoge.html)
+
 * https://github.com/judasn/IntelliJ-IDEA-Tutorial
 * [官网教程](http://www.jetbrains.com/help/idea/setting-background-image.html)
 * java命令行
