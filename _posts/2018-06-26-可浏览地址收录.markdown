@@ -48,6 +48,11 @@ categories: update
 * [**人工智能学习大全**](https://www.easyaihub.com/)
 * [**天善智能**](https://www.hellobi.com/)
 * [**美团技术团队**](https://tech.meituan.com/)
+* [**前端里**](http://www.yyyweb.com/)
+* [**html**](https://www.html.cn/)
+* [**虎嗅**](https://www.huxiu.com/)
+* [**架构演进之路**](https://www.hollischuang.com/archives/1036)
+* [**人人都是产品经理**](http://www.woshipm.com/)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 
