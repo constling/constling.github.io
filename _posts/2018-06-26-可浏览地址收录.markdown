@@ -54,6 +54,7 @@ categories: update
 * [**架构演进之路**](https://www.hollischuang.com/archives/1036)
 * [**人人都是产品经理**](http://www.woshipm.com/)
 * [**阿里云产品**](https://help.aliyun.com/document_detail/31819.html?spm=a2c4g.11186623.6.547.ca93392ciRTAkq)
+* [思维导图模板](https://mm.edrawsoft.cn/community/show/1)
 
 * **关注** http://www.mzh.ren/adobe-photoshop-new-algorithm.html
 

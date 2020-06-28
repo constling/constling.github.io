@@ -92,8 +92,7 @@ categories: 面试
 
 **GC策略**
 
-[学习链接](https://www.cnblogs.com/1024Community/p/honery.html#31-%E6%A0%87%E8%AE%B0-%E6%B8%85%E9%99%A4%E7%AE%97%E6%B3%95
-)
+[学习链接](https://www.cnblogs.com/1024Community/p/honery.html#31-%E6%A0%87%E8%AE%B0-%E6%B8%85%E9%99%A4%E7%AE%97%E6%B3%95)
 
 1. 新生代有一个Eden区和两个survivor区，首先将对象放入Eden区，如果空间不足就向其中的一个survivor区上放，如果仍然放不下就会引发一次发生在新生代的minor GC，将存活的对象放入另一个survivor区中，然后清空Eden和之前的那个survivor区的内存。在某次GC过程中，如果发现仍然又放不下的对象，就将这些对象放入老年代内存里去。
 2. 大对象以及长期存活的对象直接进入老年区。
