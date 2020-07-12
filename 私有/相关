@@ -1,0 +1,82 @@
+面试：大局观。
+优势、劣势、为什么不行。
+
+跨端诉求：
+1. mac端需要覆盖。
+2. 前端希望能更快。
+3. win端界面。
+4. 跨移动。
+
+1、https://www.atatech.org/articles/117158
+2、https://blog.csdn.net/ahence/article/details/79435378
+3、http://www.infoq.com/cn/articles/why-is-flutter-revolutionary
+
+flutter的demo合集
+https://github.com/Vadaski/Vadaski-flutter_note_book
+
+
+推荐文档(移动端的架构好文，flutter & reactnative比较)
+https://juejin.im/post/5b44d50de51d451925627900
+
+闲鱼 flutter & reactnative性能比较
+https://juejin.im/post/5b9606055188255c7c6541c3
+
+clean 架构学习
+https://www.jianshu.com/p/66e749e19f0d
+https://juejin.im/post/5b44d50de51d451925627900
+
+
+面试题：
+https://www.jianshu.com/p/25324d04797d
+
+windows & mac & linux
+qt：https://www.cnblogs.com/lvdongjie/p/4759544.html
+
+文档
+1、分析mac & windows的需求
+2、qt分析
+3、移动端架构的演进
+4、适合windows的架构
+5、小程序的架构
+6、windows架构的缺陷
+
+
+pc是一个生产力的工具
+pc场景：工作(各种软件)、游戏、直播（小场景、美颜）、信息获取、视频制作、输入法、学习（教育）。
+设备能力。
+https://blog.csdn.net/hackeey/article/details/77930825
+https://blog.csdn.net/qq_26744901/article/details/82220938
+https://baijiahao.baidu.com/s?id=1591006966946078126&wfr=spider&for=pc
+https://www.cnblogs.com/dongmengtao/p/7161896.html
+https://baijiahao.baidu.com/s?id=1596899414764197955&wfr=spider&for=pc
+http://www.woshipm.com/pd/289607.html
+https://www.douban.com/group/topic/107305986/
+https://blog.csdn.net/hackeey/article/details/77930825
+
+
+思路：
+前言->pc相较于移动优势->pc应用场景->pc更好的发展方向->
+
+响应式设计
+http://huangxuan.me/2014/11/20/responsive-web-design/
+
+
+移动和桌面设计的差别远不止是布局问题。只要有足够的编程量，这些差别是可以通过响应式设计来解决的。事实上，你可以认为如果一种设计不能兼顾两种平台的主要差别，就不能算是合格的响应式设计。但是，如果确实想要处理好平台间的所有差异，我们就回到了原点：进行两种不同的设计。
+
+flutter的革命之处
+https://juejin.im/post/5a38e3f651882527a13d9eb2
+
+Flutter
+是Google用以帮助开发者在Ios和Android两个平台开发高质量原生应用的全新移动UI框架，也是据说要把Android替换掉的一个恐怖存在（目前现在还是个弱鸡）
+
+
+ReactNative
+让开发者使用 JavaScript 和 React 编写应用，利用相同的核心代码就可以创建 Web，iOS 和 Android 平台的原生应用。React Native 的宗旨是，学习一次，高效编写跨平台原生应用
+
+
+前端眼中的差异
+https://blog.csdn.net/jieni2017/article/details/77036008
+
+
+pc软件
+https://www.zhihu.com/question/68568875

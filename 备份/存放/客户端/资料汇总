@@ -1,0 +1,26 @@
+## 相关链接
+* https://www.jianshu.com/p/135ef0ff698a
+* https://github.com/ChenYilong/iOSInterviewQuestions 要看完
+* https://github.com/liberalisman/iOS-InterviewQuestion-collection 要看完
+
+* https://github.com/colourful987/bytedance-alibaba-interview
+
+1.为什么要使用copy？https://www.jianshu.com/p/682457c922c5
+因为父类指针可以指向子类对象,使用copy修饰对象的话,无论赋值对象是可变还是不可变的,对象本身持有的都是一个不可变的副本，这样就避免外界的影响。(其实这一个话是有点问题的，用copy修饰的对象如果传入一个不可变对象，其实也只是单纯的指针拷贝，指向的还是同一块内存,但是个人水平有限，对于内存问题不敢妄下定论)
+如果我们使用strong修饰对象的话,该对象可能会指向一个可变对象,如果这个可变对象发生改变的话，使用strong修饰的对象也会受到影响。
+
+2. block循环引用：https://www.jianshu.com/p/61b004802d1c
+
+## flutter
+* 框架：https://flutterchina.club/technical-overview/
+
+**flutter是什么**
+跨端跨平台的UI框架。
+
+**框架**
+1. c++的引擎框架。
+
+
+1. 集团解决方案，对接内部库。
+2. 丰富组件库。
+3. dart语言，导致已有能力接入成本。
