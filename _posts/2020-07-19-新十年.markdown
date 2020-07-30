@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "问题规则"
+date:   2020-07-19 13:50:00
+categories: 人生
+---
+
+### 目标一
+* 找到一个高薪的工作
+
+**相关招聘要求**
+1. [美团点评](https://www.zhipin.com/job_detail/d8d17ef36a5adde81Xx_3N20GFY~.html?ka=search_list_jname_138_blank&lid=nlp-CetUoA6PQ8.search.138)
+2. [企业微信](https://www.zhipin.com/job_detail/5182233379f432000HZy2dS9E1s~.html?ka=search_list_jname_15_blank&lid=nlp-C7Rp7WhhMh.search.15)
+3. [头条服务端](https://www.zhipin.com/job_detail/f37c0e2279dcb6270HN53Ni-FVs~.html?ka=search_list_jname_62_blank&lid=nlp-C7Rp7WhhMh.search.62)
+4. [腾讯ios高级开发](https://www.zhipin.com/job_detail/3fe5b290928969e20HV52N61F1c~.html?ka=search_list_jname_188_blank&lid=nlp-C7Rp7WhhMh.search.188)
+5. [企业微信高级开发](https://www.zhipin.com/job_detail/2d6735ac478021c10Hd_3du6Elo~.html?ka=search_list_jname_251_blank&lid=nlp-C7Rp7WhhMh.search.251)
+
+### 目标二
+* 找到一个稳定薪资不错的工作
+
+**范围**
+
+https://www.zhihu.com/question/46937743
+
+* 农业银行
+* 工商银行
