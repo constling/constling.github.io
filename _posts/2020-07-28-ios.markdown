@@ -43,5 +43,36 @@ https://www.jianshu.com/p/d4b55dae9a0d
     * 如果methodLists找不到，就到超类的方法列表里寻找，一直找，直到找到NSObject类为止。
     * 如果还找不到，Runtime就提供了如下三种方法来处理：动态方法解析、消息接受者重定向、
 
+**Categary & extension**
+
+* extension:类的扩展，类似NSString(Number)
+* categary:扩展函数。
+* extension可以添加实例变量，而category是无法添加实例变量。
+* extension在编译期决议（就是类的一部分），category在运行期决议。
+* extension一般用来隐藏类的私有信息，无法直接为系统的类扩展，但可以先创建系统类的子类再添加extension。
+* category可以给系统提供的类添加分类。
+* extension和category都可以添加属性，但是category的属性不能生成成员变量和getter、setter方法的实现。
+
+**Load方法 & Initialize**
+* +Load方法的含义是将类对象或者category加载到内存中，这个过程发生在App启动时，在所有类都被注册后。
+* 与Load不同的是，Initialize方法不会在一开始就会被调用，而是在类收到第一条消息时才会被调用。
+
+**Block & Interface**
+* 标准规范：Interface准循某种规则，Block不具有此特性。
+* Block更灵活。
+* Block注意引用计数，Interface为weak不存在此问题。
+
+
+**引用计数基本原理**
+* hashmap：key为对象地址，value指向对象的指针。
+
+**TableView的优化**
+* 图片渲染，缓存。
+* 高度计数。
+* cell重复利用。
+
+
+
+
 * 软件启动流程
 * 
