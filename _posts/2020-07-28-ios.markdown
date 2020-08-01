@@ -14,8 +14,8 @@ categories: 其它
 
 ## 相关网址
 基础能力
-* [https://github.com/Alllfred/iOSReview](https://github.com/Alllfred/iOSReview)
-* [https://github.com/lzyy/iOS-Developer-Interview-Questions](https://github.com/lzyy/iOS-Developer-Interview-Questions)
+* [https://github.com/Alllfred/iOSReview](https://github.com/Alllfred/iOSReview) 已完成
+* [https://github.com/lzyy/iOS-Developer-Interview-Questions](https://github.com/lzyy/iOS-Developer-Interview-Questions) 已完成
 * [https://github.com/icofans/iOS-Interview-Questions](https://github.com/icofans/iOS-Interview-Questions)
 * [https://github.com/colourful987/bytedance-alibaba-interview](https://github.com/colourful987/bytedance-alibaba-interview)
 * [https://github.com/liberalisman/iOS-InterviewQuestion-collection](https://github.com/liberalisman/iOS-InterviewQuestion-collection)
@@ -72,6 +72,38 @@ https://www.jianshu.com/p/d4b55dae9a0d
 * cell重复利用。
 
 
+**iOS的签名机制是怎么样的**
+
+签名机制：
+先将应用内容通过摘要算法，得到摘要。再用私钥对摘要进行加密得到密文。将源文本、密文、和私钥对应的公钥一并发布。
+
+验证流程：
+查看公钥是否是私钥方的，然后用公钥对密文进行解密得到摘要。
+将APP用同样的摘要算法得到摘要，两个摘要进行比对，如果相等那么一切正常。
+
+
+**NSOperation**
+
+* https://www.jianshu.com/p/e6cd25f6da91
+* GCD的支撑场景有限，有线程池使用方便等优势。
+
+
+**metaclass理解**
+* https://blog.csdn.net/u012179233/article/details/85279643 （结合对象存储结构一起看）
+
+**Block 为什么用 copy?**
+代码块 是存在栈区的, 需要通过 copy 拷贝到堆内存, ARC 下, 赋值的时候编译器会自行对 block 进行 copy 操作, copy 到堆内存, 与一般的对象是相同的.
+
+## 开放问题
+**设计一个可以无限滚动并且支持自动滚动的 SlideShow**
+
+**设计一个进度条**
+
+**设计一套大文件（如上百M的视频）下载方案**
+
+**如果让你来实现 dispatch_once，你会怎么做？**
+
+**设计一个类似 iOS 主屏可以下拉出现 Spotlight 的系统。(对 UIScrollView 的理解程度)**
 
 
 * 软件启动流程
