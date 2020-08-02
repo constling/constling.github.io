@@ -17,12 +17,13 @@ categories: 其它
 * [https://github.com/Alllfred/iOSReview](https://github.com/Alllfred/iOSReview) 已完成
 * [https://github.com/lzyy/iOS-Developer-Interview-Questions](https://github.com/lzyy/iOS-Developer-Interview-Questions) 已完成
 * [https://github.com/icofans/iOS-Interview-Questions](https://github.com/icofans/iOS-Interview-Questions)
-* [https://github.com/colourful987/bytedance-alibaba-interview](https://github.com/colourful987/bytedance-alibaba-interview)
+* [https://github.com/colourful987/bytedance-alibaba-interview](https://github.com/colourful987/bytedance-alibaba-interview) 已完成
 * [https://github.com/liberalisman/iOS-InterviewQuestion-collection](https://github.com/liberalisman/iOS-InterviewQuestion-collection)
-* [https://juejin.im/post/5e397ccaf265da570b3f1b02](https://juejin.im/post/5e397ccaf265da570b3f1b02)
 * [https://github.com/chaoskyx/iOS-Interview-Questions](https://github.com/chaoskyx/iOS-Interview-Questions)
-* [https://github.com/timhbw/iOSInterviewQuestions](https://github.com/timhbw/iOSInterviewQuestions)
-* [https://github.com/ChenYilong/iOSInterviewQuestions](https://github.com/ChenYilong/iOSInterviewQuestions)
+* [https://github.com/timhbw/iOSInterviewQuestions](https://github.com/timhbw/iOSInterviewQuestions) 已完成
+* [https://github.com/ChenYilong/iOSInterviewQuestions](https://github.com/ChenYilong/iOSInterviewQuestions) 已完成
+* [https://zhuanlan.zhihu.com/p/96963676](https://zhuanlan.zhihu.com/p/96963676) 已完成
+* [https://www.jianshu.com/p/e709fde38de3](https://www.jianshu.com/p/e709fde38de3)
 
 
 
@@ -56,6 +57,8 @@ https://www.jianshu.com/p/d4b55dae9a0d
 **Load方法 & Initialize**
 * +Load方法的含义是将类对象或者category加载到内存中，这个过程发生在App启动时，在所有类都被注册后。
 * 与Load不同的是，Initialize方法不会在一开始就会被调用，而是在类收到第一条消息时才会被调用。
+* Load是先基类、主类、先编译的Category。
+* Initialize是最后编译的Category。
 
 **Block & Interface**
 * 标准规范：Interface准循某种规则，Block不具有此特性。
@@ -71,6 +74,29 @@ https://www.jianshu.com/p/d4b55dae9a0d
 * 高度计数。
 * cell重复利用。
 
+
+**Category添加成员**
+
+#import <objc/runtime.h>
+
+```
+static NSString * const kKeyOfImageProperty;
+
+@implementation UIView (Image)
+
+- (void)dealloc {
+    //kKeyOfImageProperty = nill;
+}
+
+- (UIImage *)pt_image {
+    return objc_getAssociatedObject(self, &kKeyOfImageProperty);
+}
+
+- (void)setPTImage:(UIImage *)image {
+    objc_setAssociatedObject(self, &kKeyOfImageProperty, image,OBJC_ASSOCIATION_RETAIN);
+}
+@end
+```
 
 **iOS的签名机制是怎么样的**
 
@@ -94,7 +120,26 @@ https://www.jianshu.com/p/d4b55dae9a0d
 **Block 为什么用 copy?**
 代码块 是存在栈区的, 需要通过 copy 拷贝到堆内存, ARC 下, 赋值的时候编译器会自行对 block 进行 copy 操作, copy 到堆内存, 与一般的对象是相同的.
 
+**ARC下哪些情况会造成内存泄漏**
+
+* 循环引用;
+* CF类型内存/C语言malloc出来的对象；
+* 单例也会造成内存泄漏
+
+**block在修改NSMutableArray，需不需要添加__block**
+
+不需要，本身 block 内部就捕获了 NSMutableArray 指针，除非你要修改指针指向的对象，而这里明显只是修改内存数据，这个可以类比 NSMutableString。
+
+**block 从栈上拷贝到堆上几种情况：**
+
+* 调用Block的copy方法
+* 将Block作为函数返回值时
+* 将Block赋值给__strong修饰的变量或Block类型成员变量时
+* 向Cocoa框架含有usingBlock的方法或者GCD的API传递Block参数时
+
 ## 开放问题
+**怎么监控崩溃**
+
 **设计一个可以无限滚动并且支持自动滚动的 SlideShow**
 
 **设计一个进度条**
@@ -105,6 +150,189 @@ https://www.jianshu.com/p/d4b55dae9a0d
 
 **设计一个类似 iOS 主屏可以下拉出现 Spotlight 的系统。(对 UIScrollView 的理解程度)**
 
+**银行动态令牌**
+网银比较流行的时候，银行给我们发一个动态令牌。这个令牌并不使用任何对称或者非对称加密的算法，在整个银行的认证体系中，动态令牌只是一个一次性口令的产生器，它是基于时间同步方式，每隔60秒产生一个随机6位动态密码在其中运行的主要计算仅包括时间因子的计算和散列值的计算。
 
-* 软件启动流程
-* 
+在用户从银行手中拿到动态口令令牌卡的时候，在令牌卡的内部已经存储了一份种子文件（即图中钥匙所代表的seed），这份种子文件在银行的服务器里保存的完全一样的一份，所以对于动态口令令牌来说，这种方式是share secret的。另外在令牌硬件上的设置中，假使有人打开了这个令牌卡，种子文件将会从令牌卡的内存上擦除（待考证）。 令牌卡中有了种子文件，并实现了TOTP算法，在预先设置的间隔时间里它就能不断产生不同的动态口令，并显示到屏幕上，而银行服务器上跟随时间做同样的计算，也会得到和令牌卡同样的口令，用作认证。 那么TOTP算法具体做了什么操作呢？在RFC6238中有详细的算法描述，这里也会做简单的叙述。
+
+
+**解决kvo析构没有移除**
+
+首先为 NSObject 建立一个分类，利用 Method Swizzling，实现自定义的 BMP_addObserver:forKeyPath:options:context:、BMP_removeObserver:forKeyPath:、BMP_removeObserver:forKeyPath:context:、BMPKVO_dealloc方法，用来替换系统原生的添加移除观察者方法的实现。
+
+然后在观察者和被观察者之间建立一个 KVODelegate 对象，两者之间通过 KVODelegate 对象 建立联系。然后在添加和移除操作时，将 KVO 的相关信息例如 observer、keyPath、options、context 保存为 KVOInfo 对象，并添加到 KVODelegate 对象 中对应 的 关系哈希表 中，对应原有的添加观察者。 关系哈希表的数据结构：{keypath : [KVOInfo 对象1, KVOInfo 对象2, ... ]}
+
+在添加和移除操作的时候，利用 KVODelegate 对象 做转发，把真正的观察者变为 KVODelegate 对象，而当被观察者的特定属性发生了改变，再由 KVODelegate 对象 分发到原有的观察者上。
+
+添加观察者时：通过关系哈希表判断是否重复添加，只添加一次。
+
+移除观察者时：通过关系哈希表是否已经进行过移除操作，避免多次移除。
+
+观察键值改变时：同样通过关系哈希表判断，将改变操作分发到原有的观察者上。
+
+
+**软件启动流程**
+1.执行 Main
+2.执行 UIApplicationMain 函数.
+3.创建 UIApplication 对象,并设置 UIApplicationMain 对象的代理.UIApplication 的第三个参数就是 UIApplication 的名称,如果指定为nil,它会默认为 UIApplication.UIApplication 的第四个参数为 UIApplication 的代理.
+4.开启一个主运行循环.保证应用程序不退出.
+5.加载 info.plist。加载配置文件.判断一下 info.plist 文件当中有没有 Main storyboard file base name,里面有没有指定 Storyboard 文件,如果有就去加载 info.plist 文件,如果没有,那么应用程序加载完毕.
+
+## 开源学习
+AFN
+SDWebImage
+JSPatch、Aspects(虽然一个不可用、另一个不维护，但是这两个库都很精炼巧妙，很适合学习)
+Weex/RN, 笔者认为这种前端和客户端紧密联系的库是必须要知道其原理的
+CTMediator、其他router库，这些都是常见的路由库，开发中基本上都会用到
+请圈友们在评论下面补充吧
+
+## 架构设计
+* 手动埋点、自动化埋点、可视化埋点
+* MVC、MVP、MVVM设计模式
+* 常见的设计模式
+* 常见的路由方案，以及优缺点对比
+* 如果保证项目的稳定性
+* 设计一个图片缓存框架(LRU)
+* 如何设计一个git diff
+* 设计一个线程池？画出你的架构图
+* 你的app架构是什么，有什么优缺点、为什么这么做、怎么改进
+
+## 性能优化的点
+* 用arc管理内存
+* 正确的地方使用reuseIdentifier
+* 尽量把views设置为透明
+* 避免过于庞大的xib
+* 不要阻塞主线程
+* 控件的图片不要过大。
+* 打开gzip压缩
+* 重用和延迟加载view
+* Cache:资源、数据
+* 重用大开销对象
+* 一些objects的初始化很慢，比如NSDateFormatter和NSCalendar。然而，你又不可避免地需要使用它们，比如从JSON或者XML中解析数据。想要避免使用这个对象的瓶颈你就需要重用他们，可以通过添加属性到你的class里或者创建静态变量来实现。
+* 避免反复处理数据.在服务器端和客户端使用相同的数据结构很重要
+* 选择正确的数据格式.解析JSON会比XML更快一些，JSON也通常更小更便于传输。
+* 全屏背景图，在view中添加一个UIImageView作为一个子View
+* 只是某个小的view的背景图，你就需要用UIColor的colorWithPatternImage来做了，它会更快地渲染也不会花费很多内存：
+* 减少使用Web特性。想要更高的性能你就要调整下你的HTML了。第一件要做的事就是尽可能移除不必要的javascript，避免使用过大的框架。能只用原生js就更好了。尽可能异步加载例如用户行为统计script这种不影响页面表达的javascript。注意你使用的图片，保证图片的符合你使用的大小。
+
+* Shadow Path 。CoreAnimation不得不先在后台得出你的图形并加好阴影然后才渲染，这开销是很大的。使用shadowPath的话就避免了这个问题。使用shadow path的话iOS就不必每次都计算如何渲染，它使用一个预先计算好的路径。但问题是自己计算path的话可能在某些View中比较困难，且每当view的frame变化的时候你都需要去update shadow path.
+* 优化Table View
+    * 正确使用reuseIdentifier来重用cells
+    * 尽量使所有的view opaque，包括cell自身
+    * 避免渐变，图片缩放，后台选人
+    * 缓存行高
+    * 如果cell内现实的内容来自web，使用异步加载，缓存请求结果
+    * 使用shadowPath来画阴影
+    * 减少subviews的数量
+    * 尽量不适用cellForRowAtIndexPath:，如果你需要用到它，只用-一次然后缓存结果
+    * 使用正确的数据结构来存储数据
+    * 使用rowHeight, sectionFooterHeight 和 sectionHeaderHeight来设定固定的高，不要请求delegate
+
+* 选择正确的数据存储选项
+    * NSUserDefaults的问题是什么？虽然它很nice也很便捷，但是它只适用于小数据，比如一些简单的布尔型的设置选项，再大点你就要考虑其它方式了
+    * XML这种结构化档案呢？总体来说，你需要读取整个文件到内存里去解析，这样是很不经济的。使用SAX又是一个很麻烦的事情。
+    * NSCoding？不幸的是，它也需要读写文件，所以也有以上问题。
+    * 在这种应用场景下，使用SQLite 或者 Core Data比较好。使用这些技术你用特定的查询语句就能只加载你需要的对象。
+    * 在性能层面来讲，SQLite和Core Data是很相似的。他们的不同在于具体使用方法。
+    * Core Data代表一个对象的graph model，但SQLite就是一个DBMS。
+    * Apple在一般情况下建议使用Core Data，但是如果你有理由不使用它，那么就去使用更加底层的SQLite吧。
+    * 如果你使用SQLite，你可以用FMDB这个库来简化SQLite的操作，这样你就不用花很多经历了解SQLite的C API了。
+
+* 加速启动时间。快速打开app是很重要的，特别是用户第一次打开它时，对app来讲，第一印象太太太重要了。你能做的就是使它尽可能做更多的异步任务，比如加载远端或者数据库数据，解析数据。避免过于庞大的XIB，因为他们是在主线程上加载的。所以尽量使用没有这个问题的Storyboards吧！一定要把设备从Xcode断开来测试启动速度
+
+**平时你是如何对代码进行性能优化的？**
+* 自测性能分析，profile。
+* 线上埋点监控。
+
+**UIImage加载图片性能问题**
+
+* imageNamed默认加载图片成功后会内存中缓存图片,这个方法用一个指定的名字在系统缓存中查找并返回一个图片对象.如果缓存中没有找到相应的图片对象,则从指定地方加载图片然后缓存对象，并返回这个图片对象.
+imageWithContentsOfFile则仅只加载图片,不缓存.
+* 加载一张大图并且使用一次，用imageWithContentsOfFile是最好,这样CPU不需要做缓存节约时间.
+使用场景需要编程时，应该根据实际应用场景加以区分，UIimage虽小，但使用元素较多问题会有所凸显.
+不要在viewWillAppear 中做费时的操作：viewWillAppear: 在view显示之前被调用，出于效率考虑，方法中不要处理复杂费时操作；在该方法设置 view 的显示属性之类的简单事情，比如背景色，字体等。否则，会明显感觉到 view 有卡顿或者延迟。
+* 在正确的地方使用reuseIdentifier：table view用 tableView:cellForRowAtIndexPath:为rows分配cells的时候，它的数据应该重用自UITableViewCell。
+* 尽量把views设置为透明：如果你有透明的Views你应该设置它们的opaque属性为YES。系统用一个最优的方式渲染这些views。这个简单的属性在IB或者代码里都可以设定。
+* 避免过于庞大的XIB：尽量简单的为每个Controller配置一个单独的XIB，尽可能把一个View Controller的view层次结构分散到单独的XIB中去, 当你加载一个引用了图片或者声音资源的nib时，nib加载代码会把图片和声音文件写进内存。
+* 不要阻塞主线程：永远不要使主线程承担过多。因为UIKit在主线程上做所有工作，渲染，管理触摸反应，回应输入等都需要在它上面完成,大部分阻碍主进程的情形是你的app在做一些牵涉到读写外部资源的I/O操作，比如存储或者网络。
+dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+// 选择一个子线程来执行耗时操作
+dispatch_async(dispatch_get_main_queue(), ^{
+// 返回主线程更新UI
+});
+});
+* 如果要在UIImageView中显示一个来自bundle的图片，你应保证图片的大小和UIImageView的大小相同。在运行中缩放图片是很耗费资源的.
+
+
+**怎么防止反编译**
+* 混淆
+* 加密
+* 混排
+
+**KVC底层实现?**
+
+* 拿字符串与当前类的属性进行匹配.如果匹配到,就给该属性赋值.
+   [flagItem setValue:obj forKeyPath:key];
+* 会找有没有跟key值相同名称的set方法,如果有，就会调用set方法,把obj传入
+* 如果说没有set方法.那么它会去找没有相同名称,并且带有下划线的成员属性,如果有就会给该属性赋值.
+* 如果也没有带有下划线的成员属性,就看有没有跟它相同名称的成员属性,如果有就会给该属性赋值.
+* 如果还没有跟它相同名称的成员属性,就会调用setValue:(id)value  forUndefinedKey:
+* 如果没有实现setValue: forUndefinedKey: 就直接报错
+
+
+**请简单说明NSCache的**
+
+* NSCache是苹果推出专门用来处理内存缓存的类
+* NSCache默认是线程安全的,在使用的时候可以不用考虑线程安全的问题
+* NSCache使用方法和可变字典类似,当缓存文件超过最大限度的时候会开启一个回收过程,把最老的缓存对象回收
+* NSCache可以设置缓存的const(成本)和缓存的数量
+
+**筛选算法**
+
+**请简单介绍下Base64编码**
+* 特点：可以将任意的二进制数据进行Base64编码
+* 结果：所有的数据都能被编码为并只用65个字符就能表示的文本文件。65字符：A~Z a~z 0~9 + / =
+* 对文件进行base64编码后文件数据的变化：编码后的数据~=编码前数据的4/3，会大1/3左右。
+* Base64编码原理:
+    * 将所有字符转化为ASCII码；
+    * 将ASCII码转化为8位二进制；
+    * 将二进制3个归成一组(不足3个在后边补0)共24位，再拆分成4组，每组6位；
+    * 统一在6位二进制前补两个0凑足8位；
+    * 将补0后的二进制转为十进制；
+    * 从Base64编码表获取十进制对应的Base64编码
+* 使用场景：
+    * 简单加密
+    * 纯文本数据包含不可见字符，就需要使用base64，比如xml文件某节点数据包含可见字符，显示的话就是乱码，不能够编辑操作。使用base64编码后显示，需要还原的地方再解码。（如xml包含另一个xml）
+    * 压缩前处理    
+
+
+**单向散列函数(Hash函数)**
+* MD5（Message Digest Algorithm 5）：是RSA数据安全公司开发的一种单向散列算法，MD5被广泛使用，可以用来把不同长度的数据块进行暗码运算成一个128位的数值。
+* SHA（Secure Hash Algorithm）这是一种较新的散列算法，可以对任意长度的数据运算生成一个160位的数值。
+* MAC（Message Authentication Code）：消息认证代码，是一种使用密钥的单向函数，可以用它们在系统上或用户之间认证文件或消息。HMAC（用于消息认证的密钥散列法）就是这种函数的一个例子。
+* CRC（Cyclic Redundancy Check）：循环冗余校验码，CRC校验由于实现简单，检错能力强，被广泛使用在各种数据校验应用中。占用系统资源少，用软硬件均能实现，是进行数据传输差错检测地一种很好的手段（CRC 并不是严格意义上的散列算法，但它的作用与散列算法大致相同，所以归于此类）。
+
+##64.请简单介绍下散列函数的一些应用领域？
+- 搜索 多个关键字，先对每个关键字进行散列，然后多个关键字进行或运算，如果值一致则搜索结果一致
+- 版权 对文件进行散列判断该文件是否是正版或原版的
+- 文件完整性验证 对整个文件进行散列，比较散列值判断文件是否完整或被篡改
+
+
+**请简单介绍下数字签名这门技术？**
+* 应用场景：需要严格验证发送方身份信息情况
+* 数字签名原理
+  * 客户端处理
+       * 对"消息"进行 HASH 得到 "消息摘要"
+       * 发送方使用自己的私钥对"消息摘要" 加密(数字签名)
+       * 把数字签名附着在"报文"的末尾一起发送给接收方
+  * 服务端处理
+       * 对"消息" HASH 得到 "报文摘要"
+       * 使用公钥对"数字签名" 解密
+       * 对结果进行匹配
+
+**数字证书和公钥什么关系？**
+* 数字证书就是对公钥进行数字签名
+* 证书和驾照很相似，里面记有姓名、组织、地址等个人信息，以及属于此人的公钥，并有认证机构施加数字签名,只要看到公钥证书，我们就可以知道认证机构认证该公钥的确属于此人
+* 数字证书的主要内容：
+    * 公钥
+    * 认证机构的数字签名
