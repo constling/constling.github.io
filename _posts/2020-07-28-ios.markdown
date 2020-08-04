@@ -16,13 +16,13 @@ categories: 其它
 基础能力
 * [https://github.com/Alllfred/iOSReview](https://github.com/Alllfred/iOSReview) 已完成
 * [https://github.com/lzyy/iOS-Developer-Interview-Questions](https://github.com/lzyy/iOS-Developer-Interview-Questions) 已完成
-* [https://github.com/icofans/iOS-Interview-Questions](https://github.com/icofans/iOS-Interview-Questions)
 * [https://github.com/colourful987/bytedance-alibaba-interview](https://github.com/colourful987/bytedance-alibaba-interview) 已完成
-* [https://github.com/liberalisman/iOS-InterviewQuestion-collection](https://github.com/liberalisman/iOS-InterviewQuestion-collection)
-* [https://github.com/chaoskyx/iOS-Interview-Questions](https://github.com/chaoskyx/iOS-Interview-Questions)
+* [https://github.com/chaoskyx/iOS-Interview-Questions](https://github.com/chaoskyx/iOS-Interview-Questions) 已完成
 * [https://github.com/timhbw/iOSInterviewQuestions](https://github.com/timhbw/iOSInterviewQuestions) 已完成
 * [https://github.com/ChenYilong/iOSInterviewQuestions](https://github.com/ChenYilong/iOSInterviewQuestions) 已完成
 * [https://zhuanlan.zhihu.com/p/96963676](https://zhuanlan.zhihu.com/p/96963676) 已完成
+* [https://github.com/liberalisman/iOS-InterviewQuestion-collection](https://github.com/liberalisman/iOS-InterviewQuestion-collection)
+* [https://github.com/icofans/iOS-Interview-Questions](https://github.com/icofans/iOS-Interview-Questions)
 * [https://www.jianshu.com/p/e709fde38de3](https://www.jianshu.com/p/e709fde38de3)
 
 
@@ -336,3 +336,27 @@ dispatch_async(dispatch_get_main_queue(), ^{
 * 数字证书的主要内容：
     * 公钥
     * 认证机构的数字签名
+
+**http和socket通信的区别，tcp和udp的区别，session和cookie的区别**
+
+**extern "C"的作用**
+* extern "C"的主要作用就是为了能够正确实现C++代码调用其他C语言代码。加上extern "C"后，会指示编译器这部分代码按C语言（而不是C++）的方式进行编译。由于C++支持函数重载，因此编译器编译函数的过程中会将函数的参数类型也加到编译后的代码中，而不仅仅是函数名；而C语言并不支持函数重载，因此编译C语言代码的函数时不会带上函数的参数类型，一般只包括函数名。
+
+* 这个功能十分有用处，因为在C++出现以前，很多代码都是C语言写的，而且很底层的库也是C语言写的，为了更好的支持原来的C代码和已经写好的C语言库，需要在C++中尽可能的支持C，而extern "C"就是其中的一个策略。
+
+**如何高性能的给UIImageView加个圆角**
+除了系统支持外，可以在drawRect函数。用rect与椭圆求交集裁前。
+
+**NSString的字符个数**
+https://www.jianshu.com/p/9f5bf3b833ad
+
+**TCP慢启动特性**
+TCP在连接过程的三次握手完成后，开始传数据，并不是一开始向网络通道中发送大量的数据包，这样很容易导致网络中路由器缓存空间耗尽，从而发生拥塞。
+
+TCP使用了一个叫慢启动门限(ssthresh)的变量，一旦cwnd>=ssthresh（大多数TCP的实现，通常大小都是65536），慢启动过程结束，拥塞避免阶段开始；
+
+拥塞避免：cwnd的值不再指数级往上升，开始加法增加。此时当窗口中所有的报文段都被确认时，cwnd的大小加1，cwnd的值就随着RTT开始线性增加，这样就可以避免增长过快导致网络拥塞，慢慢的增加调整到网络的最佳值。
+
+**如何用HTTP实现长连接**
+
+**数据库的索引**
